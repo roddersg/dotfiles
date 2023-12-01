@@ -1,0 +1,8 @@
+
+# ignore these files
+
+# completions
+.zcalc_history
+.zhistory
+.zcompdump
+.zcompdump*

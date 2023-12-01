@@ -1,0 +1,16 @@
+{
+	"font_face" : "JetBrainsMono Nerd Font",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Adaptive.sublime-theme",
+    "color_scheme": "Night Owl.sublime-color-scheme",
+    "predawn_tabs_active_underline": true,
+    "predawn_tabs_small": true,
+    "predawn_sidebar_arrows": true,
+    "predawn_sidebar_medium": true,
+    "predawn_quick_panel_small": false,
+
+}

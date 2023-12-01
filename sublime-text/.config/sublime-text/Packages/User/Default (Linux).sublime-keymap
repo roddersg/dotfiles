@@ -1,0 +1,8 @@
+[
+	// InsertDate
+	{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+	// Close all windows
+  	{ "keys": ["super+ctrl+alt+w"], "command": "close_all" },
+  	// Title Case
+  	{ "keys": ["ctrl+k","ctrl+t"], "command": "title_case" }
+]

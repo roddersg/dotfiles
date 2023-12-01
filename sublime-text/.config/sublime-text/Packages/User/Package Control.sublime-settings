@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Catppuccin color schemes",
+		"FavoriteFiles",
+		"GitGutter",
+		"InsertDate",
+		"Jedi - Python autocompletion",
+		"LSP",
+		"LSP-bash",
+		"Night Owl",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"Predawn",
+		"Predawn Twilight Theme",
+		"SublimeLinter",
+		"Terminus",
+		"TrailingSpaces",
+	],
+	"in_process_packages":
+	[
+	],
+}

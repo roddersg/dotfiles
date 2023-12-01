@@ -1,0 +1,302 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 757,
+      "width": 920,
+      "x": 519,
+      "y": 175
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 920,
+      "x": 519,
+      "y": 212
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 920,
+      "x": 519,
+      "y": 212
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAIHAAAArwAABZ4AAAOjAAACBwAAANQAAAWeAAADowAAAAAAAAAAB4AAAAIHAAAA1AAABZ4AAAOj"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Samsung Electric Company",
+      "model": "S27F350",
+      "name": "DP-2",
+      "serial": "H4ZH400474",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 3840,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAIJAAAArwAABaAAAAOjAAACCQAAANQAAAWgAAADowAAAAAAAAAAB4AAAAIJAAAA1AAABaAAAAOj"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAESAAAC0PwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAALQAAAAlQD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB9AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOcA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAMkA////AAACgAAAAtAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "saved-search-settings": {
+    "cock": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "penis": {
+      "case_sensitive": false,
+      "mode": "normal"
+    }
+  },
+  "session_data": {
+    "base_font_size": 18,
+    "controls_help_shown_count": 2,
+    "lines_per_sec_auto": 1.05,
+    "read_mode": "flow",
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Hunter, Scott"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/Hunter, Scott/[BM08]The Cold Light of Death (820)/[BM08]The Cold Light of Death - Hunter, Scott.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Hunter, Scott/[BM08]The Cold Light of Death (820)/[BM08]The Cold Light of Death - Hunter, Scott.epub",
+        "timestamp": "2023-11-09T16:15:05.492Z",
+        "title": "The Cold Light of Death"
+      },
+      {
+        "authors": [
+          "Henri J. M. Nouwen"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/hFiction/Henri J. M. Nouwen/The Return of the Prodigal Son Anniversary Edition_ A Special Two-in-One Volume, including Home (1538)/The Return of the Prodigal Son Anniversary - Henri J. M. Nouwen.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/hFiction/Henri J. M. Nouwen/The Return of the Prodigal Son Anniversary Edition_ A Special Two-in-One Volume, including Home (1538)/The Return of the Prodigal Son Anniversary - Henri J. M. Nouwen.epub",
+        "timestamp": "2023-11-03T03:23:55.508Z",
+        "title": "The Return of the Prodigal Son Anniversary Edition: A Special Two-in-One Volume, including Home Tonight"
+      },
+      {
+        "authors": [
+          "James H. Hallas"
+        ],
+        "key": "/home/rodney/idrive/JD/00ebooks/00War/Saipan_-_James_H._Hallas.epub",
+        "pathtoebook": "/home/rodney/idrive/JD/00ebooks/00War/Saipan_-_James_H._Hallas.epub",
+        "timestamp": "2023-10-06T17:12:47.069Z",
+        "title": "Saipan"
+      },
+      {
+        "authors": [
+          "Jim Corbett"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/Jim Corbett/Man-Eaters of Kumaon (619)/Man-Eaters of Kumaon - Jim Corbett.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Jim Corbett/Man-Eaters of Kumaon (619)/Man-Eaters of Kumaon - Jim Corbett.epub",
+        "timestamp": "2023-10-05T16:56:17.689Z",
+        "title": "Man-Eaters of Kumaon"
+      },
+      {
+        "authors": [
+          "Various"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/Various/The Ignatius Bible (RSV) (616)/The Ignatius Bible (RSV) - Various.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Various/The Ignatius Bible (RSV) (616)/The Ignatius Bible (RSV) - Various.epub",
+        "timestamp": "2023-10-05T16:12:41.931Z",
+        "title": "The Ignatius Bible (RSV)"
+      },
+      {
+        "authors": [
+          "Various"
+        ],
+        "key": "/home/rodney/Downloads/_OceanofPDF.com_The_Ignatius_Bible_RSV_-_Various.epub",
+        "pathtoebook": "/home/rodney/Downloads/_OceanofPDF.com_The_Ignatius_Bible_RSV_-_Various.epub",
+        "timestamp": "2023-10-05T15:54:52.146Z",
+        "title": "The Ignatius Bible (RSV)"
+      },
+      {
+        "authors": [
+          "Daniel H. Pink"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/hNonFiction/Daniel H. Pink/Drive_ The Surprising Truth About What Motivates Us (184)/Drive_ The Surprising Truth About What Mot - Daniel H. Pink.mobi",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/hNonFiction/Daniel H. Pink/Drive_ The Surprising Truth About What Motivates Us (184)/Drive_ The Surprising Truth About What Mot - Daniel H. Pink.mobi",
+        "timestamp": "2023-09-19T01:18:27.761Z",
+        "title": "Drive: The Surprising Truth About What Motivates Us"
+      },
+      {
+        "authors": [
+          "Daniel H. Pink"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/hNonFiction/Daniel H. Pink/Drive_ The Surprising Truth About What Motivates Us (184)/Drive_ The Surprising Truth About What Mot - Daniel H. Pink.azw3",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/hNonFiction/Daniel H. Pink/Drive_ The Surprising Truth About What Motivates Us (184)/Drive_ The Surprising Truth About What Mot - Daniel H. Pink.azw3",
+        "timestamp": "2023-09-19T01:18:11.547Z",
+        "title": "Drive: The Surprising Truth About What Motivates Us"
+      },
+      {
+        "authors": [
+          "Daniel H. Pink"
+        ],
+        "key": "/home/rodney/Downloads/_OceanofPDF.com_Drive__The_Surprising_Truth_About_What_Mot_-_Daniel_H_Pink.epub",
+        "pathtoebook": "/home/rodney/Downloads/_OceanofPDF.com_Drive__The_Surprising_Truth_About_What_Mot_-_Daniel_H_Pink.epub",
+        "timestamp": "2023-09-17T15:32:01.706Z",
+        "title": "Drive: The Surprising Truth About What Motivates Us"
+      },
+      {
+        "authors": [
+          "Al Sweigart"
+        ],
+        "key": "/home/rodney/Downloads/Automate the Boring Stuff with Python, 2nd Edition - Al Sweigart [2020].epub",
+        "pathtoebook": "/home/rodney/Downloads/Automate the Boring Stuff with Python, 2nd Edition - Al Sweigart [2020].epub",
+        "timestamp": "2023-09-13T00:03:35.662Z",
+        "title": "Automate the Boring Stuff with Python"
+      },
+      {
+        "key": "/tmp/calibre_6.23.0_tmp_1lr0ezq_/fr5odkl5_view_device_book.mobi",
+        "pathtoebook": "/tmp/calibre_6.23.0_tmp_1lr0ezq_/fr5odkl5_view_device_book.mobi",
+        "timestamp": "2023-07-18T15:02:23.243Z",
+        "title": "A User's Guide to the Z-Shell"
+      },
+      {
+        "key": "/tmp/calibre_6.23.0_tmp_1lr0ezq_/9swjs1ty_view_device_book.mobi",
+        "pathtoebook": "/tmp/calibre_6.23.0_tmp_1lr0ezq_/9swjs1ty_view_device_book.mobi",
+        "timestamp": "2023-07-18T15:00:23.100Z",
+        "title": "A User's Guide to the Z-Shell"
+      },
+      {
+        "authors": [
+          "Neil Gaiman"
+        ],
+        "key": "/home/rodney/Downloads/complete/Neil Gaiman (ed) - The Sandman- Book of Dreams (retail) (epub).epub",
+        "pathtoebook": "/home/rodney/Downloads/complete/Neil Gaiman (ed) - The Sandman- Book of Dreams (retail) (epub).epub",
+        "timestamp": "2022-09-16T16:36:17.632Z",
+        "title": "The Sandman"
+      },
+      {
+        "authors": [
+          "Tracy Clark-Flory"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/Calibre Library/Tracy Clark-Flory/Want Me_ A Sex Writer's Journey into the Heart of Desire (1810)/Want Me_ A Sex Writer's Journey into the H - Tracy Clark-Flory.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Calibre Library/Tracy Clark-Flory/Want Me_ A Sex Writer's Journey into the Heart of Desire (1810)/Want Me_ A Sex Writer's Journey into the H - Tracy Clark-Flory.epub",
+        "timestamp": "2022-03-12T10:40:26.758Z",
+        "title": "Want Me: A Sex Writer's Journey into the Heart of Desire"
+      },
+      {
+        "authors": [
+          "Roth, Veronica"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/Calibre Library/Roth, Veronica/Four Divergent Stories_ The Transfer, The Initiate, The Son, and The Traitor (Divergent Series) (1797)/Four Divergent Stories_ The Transfer, The - Roth, Veronica.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Calibre Library/Roth, Veronica/Four Divergent Stories_ The Transfer, The Initiate, The Son, and The Traitor (Divergent Series) (1797)/Four Divergent Stories_ The Transfer, The - Roth, Veronica.epub",
+        "timestamp": "2022-03-12T10:21:56.505Z",
+        "title": "Four Divergent Stories: The Transfer, The Initiate, The Son, and The Traitor (Divergent Series)"
+      },
+      {
+        "authors": [
+          "Louise Penny"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/Fiction-ToRead/Louise Penny/[G17]The Madness of Crowds (119)/[G17]The Madness of Crowds - Louise Penny.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Fiction-ToRead/Louise Penny/[G17]The Madness of Crowds (119)/[G17]The Madness of Crowds - Louise Penny.epub",
+        "timestamp": "2022-03-12T09:08:26.493Z",
+        "title": "The Madness of Crowds--A Novel"
+      },
+      {
+        "key": "/home/rodney/akiba/ELibrary/Calibre Library/Unknown/Recode In VBA Learn to Automate Excel by programming a fully functional model. nodrm (1658)/Recode In VBA Learn to Automate Excel by p - Unknown.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Calibre Library/Unknown/Recode In VBA Learn to Automate Excel by programming a fully functional model. nodrm (1658)/Recode In VBA Learn to Automate Excel by p - Unknown.epub",
+        "timestamp": "2022-03-11T17:27:00.314Z",
+        "title": "Recode In VBA Learn to Automate Excel by programming a fully functional model. nodrm"
+      },
+      {
+        "key": "/home/rodney/akiba/ELibrary/Calibre Library/Unknown/Ubuntu 20.04 Essentials (1666)/Ubuntu 20.04 Essentials - Unknown.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Calibre Library/Unknown/Ubuntu 20.04 Essentials (1666)/Ubuntu 20.04 Essentials - Unknown.epub",
+        "timestamp": "2022-03-11T17:26:25.900Z",
+        "title": "Ubuntu 20.04 Essentials"
+      },
+      {
+        "authors": [
+          "James H. Hallas"
+        ],
+        "key": "/home/rodney/idrive/JD/00ebooks/00NonFiction/Saipan_-_James_H._Hallas.epub",
+        "pathtoebook": "/home/rodney/idrive/JD/00ebooks/00NonFiction/Saipan_-_James_H._Hallas.epub",
+        "timestamp": "2022-03-11T16:47:22.023Z",
+        "title": "Saipan"
+      },
+      {
+        "authors": [
+          "Neil Cameron"
+        ],
+        "key": "/home/rodney/idrive/JD/00ebooks/12/2021_Book_ElectronicsProjectsWithTheESP8.epub",
+        "pathtoebook": "/home/rodney/idrive/JD/00ebooks/12/2021_Book_ElectronicsProjectsWithTheESP8.epub",
+        "timestamp": "2022-03-11T12:56:19.489Z",
+        "title": "Electronics Projects with the ESP8266 and ESP32: Building Web Pages, Applications, and WiFi Enabled Devices"
+      },
+      {
+        "authors": [
+          "CAMERIE, LARRY C."
+        ],
+        "key": "/home/rodney/idrive/JD/00ebooks/11/ARDUINO FOR BEGINNERS_ A TOP-NOTCH GUIDE.epub",
+        "pathtoebook": "/home/rodney/idrive/JD/00ebooks/11/ARDUINO FOR BEGINNERS_ A TOP-NOTCH GUIDE.epub",
+        "timestamp": "2022-03-11T12:55:23.756Z",
+        "title": "ARDUINO FOR BEGINNERS: A TOP-NOTCH GUIDE"
+      },
+      {
+        "authors": [
+          "Wendy Soliman"
+        ],
+        "key": "/home/rodney/Downloads/complete_old/00others/ebooks/Wendy Soliman - A Scandalous Proposition (epub).epub",
+        "pathtoebook": "/home/rodney/Downloads/complete_old/00others/ebooks/Wendy Soliman - A Scandalous Proposition (epub).epub",
+        "timestamp": "2022-03-11T09:39:33.446Z",
+        "title": "A Scandalous Proposition"
+      },
+      {
+        "authors": [
+          "Don Bentley"
+        ],
+        "key": "/home/rodney/Downloads/complete/jack-Ryan-universe/Tom Clancy - Jack Ryan Universe 31 - Tom Clancy Target Acquired by Don Bentley.epub",
+        "pathtoebook": "/home/rodney/Downloads/complete/jack-Ryan-universe/Tom Clancy - Jack Ryan Universe 31 - Tom Clancy Target Acquired by Don Bentley.epub",
+        "timestamp": "2022-03-08T00:14:56.144Z",
+        "title": "Tom Clancy Target Acquired"
+      },
+      {
+        "authors": [
+          "Lisa Gardner"
+        ],
+        "key": "/home/rodney/Downloads/complete/lisa-gardner-warren/Lisa Gardner - [Detective D. D. Warren 04] - Live to Tell (v5.0).epub",
+        "pathtoebook": "/home/rodney/Downloads/complete/lisa-gardner-warren/Lisa Gardner - [Detective D. D. Warren 04] - Live to Tell (v5.0).epub",
+        "timestamp": "2022-03-07T18:35:01.602Z",
+        "title": "Live to Tell"
+      },
+      {
+        "authors": [
+          "Pamfiloff, Mimi Jean"
+        ],
+        "key": "/home/rodney/akiba/ELibrary/Calibre Library/Pamfiloff, Mimi Jean/Battle of the Bulge (1529)/Battle of the Bulge - Pamfiloff, Mimi Jean.epub",
+        "pathtoebook": "/home/rodney/akiba/ELibrary/Calibre Library/Pamfiloff, Mimi Jean/Battle of the Bulge (1529)/Battle of the Bulge - Pamfiloff, Mimi Jean.epub",
+        "timestamp": "2022-02-01T18:33:14.145Z",
+        "title": "Battle of the Bulge"
+      }
+    ]
+  },
+  "viewer-search-case-sensitive": false,
+  "viewer-search-mode": "normal"
+}

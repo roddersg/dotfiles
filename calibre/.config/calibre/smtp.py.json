@@ -1,0 +1,20 @@
+{
+  "accounts": {
+    "rodneydsg@kindle.com": [
+      "EPUB",
+      true,
+      true
+    ]
+  },
+  "aliases": {},
+  "encryption": "TLS",
+  "from_": "rodneydsg@gmx.com",
+  "relay_host": "mail.gmx.com",
+  "relay_password": "676d784d4074723178",
+  "relay_port": 587,
+  "relay_username": "rodneydsg@gmx.com",
+  "subjects": {
+    "rodneydsg@kindle.com": "New Ebooks"
+  },
+  "tags": {}
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lineedit_history_bulk_edit_replace_with</key>
+	<array>
+		<string>\1 </string>
+		<string>\1</string>
+		<string>$1</string>
+		<string>$1 </string>
+		<string>[ARss]</string>
+		<string>[QR]</string>
+		<string>[ns] </string>
+	</array>
+	<key>lineedit_history_bulk_edit_search_for</key>
+	<array>
+		<string>(\d\d\d\d).*</string>
+		<string>(2023)</string>
+		<string>(2023)[,| ]</string>
+		<string>(2022) </string>
+		<string>Commando (\d\d\d\d)*</string>
+		<string> (\d\d\d\d).*</string>
+		<string>.* \(\d\d\d\).*$</string>
+		<string>.* \(\d\d\d\),.*$</string>
+		<string>.* \(\d\d\d\) .*$</string>
+		<string>\(\d\d\d\)</string>
+		<string>.* (\d\d\d\d) .*</string>
+	</array>
+	<key>lineedit_history_bulk_edit_test_test</key>
+	<array>
+		<string>Commadno 5611</string>
+		<string>Christmas</string>
+		<string>The Wives</string>
+		<string>Eagle In the Sun.epub</string>
+	</array>
+	<key>lineedit_history_choose_library_dialog</key>
+	<array>
+		<string>/media/nas4d/Calibre/Commando</string>
+		<string>/home/rodney/akiba/ELibrary/Linux-Mac-MS</string>
+		<string>/home/rodney/akiba/ELibrary/Fiction-ToRead</string>
+		<string>/media/rodney/TOSH500/ELibrary/Fiction-ToRead</string>
+		<string>/media/rodney/TOSH500/ELibrary/Fiction</string>
+		<string>/home/rodney/akiba/ELibrary/Calibre Library</string>
+		<string>/home/rodney/akiba/ELibrary/hPython</string>
+		<string>/home/rodney/akiba/ELibrary/hRPi</string>
+		<string>/home/rodney/Calibre Library</string>
+		<string>/home/rodney/akiba/ELibrary/hArduino</string>
+	</array>
+	<key>lineedit_history_viewer-search-panel-expression</key>
+	<array>
+		<string>penis</string>
+		<string>cock</string>
+	</array>
+</dict>
+</plist>

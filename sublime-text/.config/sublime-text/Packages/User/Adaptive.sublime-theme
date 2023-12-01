@@ -1,0 +1,27 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+	},
+	"rules":
+	[
+		// title bar
+		{
+			"class": "title_bar",
+			"settings": ["themed_title_bar"],
+			"fg": "color(white)",
+			// "bg": "color(var(--background) blend(white 65%))"
+			"bg": "color(blue)"
+		},
+		// status bar font
+		{
+			"class": "label_control",
+			"parents": [{"class": "status_bar"}],
+			//"fg": [255,255,0],
+			"fg": "color(yellow)",
+			//"bg": [127,127,127],
+			"font.face": "var(font_face)",
+			"font.size": 14
+		}
+	]
+}

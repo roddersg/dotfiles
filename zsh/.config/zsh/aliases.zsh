@@ -33,13 +33,14 @@ else
 fi
 
 
-alias grep='grep --color=auto'
-alias igrep='grep -i'
-alias diff="diff --color=auto"
-alias mv="mv -i"
-alias rm="rm -i"
-alias df="df -h"
-alias free="free -m"
+alias grep='\grep --color=auto'
+alias igrep='\grep -i'
+alias diff="\diff --color=auto"
+alias mv="\mv -i"
+alias rm="\rm -i"
+alias rmf="\rm"
+alias df="\df -h"
+alias free="\free -m"
 
 
 # git aliases
@@ -90,5 +91,4 @@ if (( ${+commands[mpv]} )); then
 fi
 
 # personal
-alias rn="rename  's|Mosaic_reduce_([^\.]+)\.m|$1_MR\.m|i' *.m*"
-alias p2='f(){par2 r -q "$1" | grep "found" | sed "s|Target: |mv ../|;s|\- found||" > x.sh };f'
+alias pr2='f(){par2 r -q "$1" | grep "found" | sed "s|Target: |mv ../|;s|\- found||" > x.sh };f'

@@ -4,7 +4,8 @@
 # EXPORT ENVIRONMENT VARIABLE #
 ###############################
 
-export TERM='rxvt-256color'
+# export TERM='rxvt-256color'
+export TERM="kitty"
 export DOTFILES="$HOME/dotfiles"
 export WORKSPACE="$HOME/workspace"
 

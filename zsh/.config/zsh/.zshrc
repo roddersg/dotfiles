@@ -1,8 +1,8 @@
 # .zshrc
 # my customized version of zsh implementation
 
-# Version 1.1
-export ZSHRC_VERSION="1.01"
+# Version
+export ZSHRC_VERSION="2.02"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.config/zsh/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -98,11 +98,17 @@ autoload -U colors && colors        # colours
 # # Print tree structure in the preview window
 # export FZF_ALT_C_OPTS="--preview 'tree -C {}'"
 
-
-
 # # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 # # need to put this near the bottom
 [[ ! -f "${ZDOTDIR}/.p10k.zsh" ]] || source "${ZDOTDIR}/.p10k.zsh"
+
+# let's find out where the path is
+export P_ZSHRC_0=$PATH
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    export PATH="$HOME/bin:$PATH"
+fi
+
 
 
 # >>> conda initialize >>>

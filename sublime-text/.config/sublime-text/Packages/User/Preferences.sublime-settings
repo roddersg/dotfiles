@@ -13,4 +13,5 @@
     "predawn_sidebar_medium": true,
     "predawn_quick_panel_small": false,
 
+	"index_files": true,
 }

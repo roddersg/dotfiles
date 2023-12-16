@@ -430,26 +430,26 @@
     "frame_geometry": {
       "height": 1017,
       "width": 1684,
-      "x": 211,
-      "y": 41
+      "x": 82,
+      "y": 27
     },
     "full_screened": false,
     "geometry": {
       "height": 980,
       "width": 1684,
-      "x": 211,
-      "y": 78
+      "x": 82,
+      "y": 64
     },
     "maximized": false,
     "normal_geometry": {
       "height": 980,
       "width": 1684,
-      "x": 211,
-      "y": 78
+      "x": 82,
+      "y": 64
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAADTAAAAKQAAB2YAAAQhAAAA0wAAAE4AAAdmAAAEIQAAAAAAAAAAB4AAAADTAAAATgAAB2YAAAQh"
+      "__value__": "AdnQywADAAAAAABSAAAAGwAABuUAAAQTAAAAUgAAAEAAAAblAAAEEwAAAAAAAAAAB4AAAABSAAAAQAAABuUAAAQT"
     },
     "screen": {
       "depth": 24,
@@ -463,7 +463,7 @@
       "index_in_screens_list": 0,
       "manufacturer": "Samsung Electric Company",
       "model": "S27F350",
-      "name": "DP-2",
+      "name": "HDMI-2",
       "serial": "H4ZH400474",
       "size_in_logical_pixels": {
         "height": 1080,
@@ -471,7 +471,7 @@
       },
       "virtual_geometry": {
         "height": 1080,
-        "width": 3840,
+        "width": 1920,
         "x": 0,
         "y": 0
       }
@@ -685,26 +685,26 @@
     "frame_geometry": {
       "height": 416,
       "width": 542,
-      "x": 1283,
-      "y": 353
+      "x": 653,
+      "y": 327
     },
     "full_screened": false,
     "geometry": {
       "height": 379,
       "width": 542,
-      "x": 1283,
-      "y": 390
+      "x": 653,
+      "y": 364
     },
     "maximized": false,
     "normal_geometry": {
       "height": 379,
       "width": 542,
-      "x": 1283,
-      "y": 390
+      "x": 653,
+      "y": 364
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAUDAAABYQAAByAAAAMAAAAFAwAAAYYAAAcgAAADAAAAAAAAAAAAB4AAAAUDAAABhgAAByAAAAMA"
+      "__value__": "AdnQywADAAAAAAKNAAABRwAABKoAAALmAAACjQAAAWwAAASqAAAC5gAAAAAAAAAAB4AAAAKNAAABbAAABKoAAALm"
     },
     "screen": {
       "depth": 24,
@@ -718,7 +718,7 @@
       "index_in_screens_list": 0,
       "manufacturer": "Samsung Electric Company",
       "model": "S27F350",
-      "name": "DP-2",
+      "name": "HDMI-2",
       "serial": "H4ZH400474",
       "size_in_logical_pixels": {
         "height": 1080,
@@ -726,7 +726,7 @@
       },
       "virtual_geometry": {
         "height": 1080,
-        "width": 3840,
+        "width": 1920,
         "x": 0,
         "y": 0
       }
@@ -836,7 +836,7 @@
   },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/rodney/akiba/ELibrary": 129,
+    "/home/rodney/akiba/ELibrary": 131,
     "/home/rodney/akiba/ELibrary/Calibre Library": 61,
     "/home/rodney/akiba/ELibrary/Fiction-ToRead": 43,
     "/home/rodney/akiba/ELibrary/Linux-Mac-MS": 3,

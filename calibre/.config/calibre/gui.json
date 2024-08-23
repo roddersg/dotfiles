@@ -428,28 +428,28 @@
   },
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 1017,
-      "width": 1684,
-      "x": 82,
-      "y": 27
+      "height": 789,
+      "width": 1411,
+      "x": 122,
+      "y": 58
     },
     "full_screened": false,
     "geometry": {
-      "height": 980,
-      "width": 1684,
-      "x": 82,
-      "y": 64
+      "height": 752,
+      "width": 1411,
+      "x": 122,
+      "y": 95
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 980,
-      "width": 1684,
-      "x": 82,
-      "y": 64
+      "height": 752,
+      "width": 1411,
+      "x": 122,
+      "y": 95
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAABSAAAAGwAABuUAAAQTAAAAUgAAAEAAAAblAAAEEwAAAAAAAAAAB4AAAABSAAAAQAAABuUAAAQT"
+      "__value__": "AdnQywADAAAAAAB6AAAAOgAABfwAAANOAAAAegAAAF8AAAX8AAADTgAAAAAAAAAAB4AAAAB6AAAAXwAABfwAAANO"
     },
     "screen": {
       "depth": 24,
@@ -685,26 +685,26 @@
     "frame_geometry": {
       "height": 416,
       "width": 542,
-      "x": 653,
-      "y": 327
+      "x": 556,
+      "y": 244
     },
     "full_screened": false,
     "geometry": {
       "height": 379,
       "width": 542,
-      "x": 653,
-      "y": 364
+      "x": 556,
+      "y": 281
     },
     "maximized": false,
     "normal_geometry": {
       "height": 379,
       "width": 542,
-      "x": 653,
-      "y": 364
+      "x": 556,
+      "y": 281
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAKNAAABRwAABKoAAALmAAACjQAAAWwAAASqAAAC5gAAAAAAAAAAB4AAAAKNAAABbAAABKoAAALm"
+      "__value__": "AdnQywADAAAAAAIsAAAA9AAABEkAAAKTAAACLAAAARkAAARJAAACkwAAAAAAAAAAB4AAAAIsAAABGQAABEkAAAKT"
     },
     "screen": {
       "depth": 24,
@@ -836,18 +836,47 @@
   },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/rodney/akiba/ELibrary": 131,
+    "/home/rodney/akiba/ELibrary": 144,
     "/home/rodney/akiba/ELibrary/Calibre Library": 61,
     "/home/rodney/akiba/ELibrary/Fiction-ToRead": 43,
     "/home/rodney/akiba/ELibrary/Linux-Mac-MS": 3,
     "/home/rodney/akiba/ELibrary/hArduino": 4,
-    "/home/rodney/akiba/ELibrary/hFiction": 45,
+    "/home/rodney/akiba/ELibrary/hFiction": 47,
     "/home/rodney/akiba/ELibrary/hNonFiction": 17,
     "/home/rodney/akiba/ELibrary/hPython": 3,
     "/home/rodney/akiba/ELibrary/hRPi": 2,
-    "/home/rodney/akiba/ELibrary/hTechnical": 13,
+    "/home/rodney/akiba/ELibrary/hTechnical": 21,
     "/media/nas4d/Calibre/Commando": 5,
     "/media/rodney/TOSH500/ELibrary/Fiction": 3
+  },
+  "main_window_central_widget_state": {
+    "layout": "wide",
+    "narrow_desires": {
+      "book_details_height": 0.23076923076923078,
+      "cover_browser_width": 0.3497624703087886,
+      "quick_view_height": 0.2564102564102564,
+      "tag_browser_width": 0.25
+    },
+    "narrow_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    },
+    "wide_desires": {
+      "book_details_width": 0.32600950118764843,
+      "cover_browser_height": 0.24390243902439024,
+      "quick_view_height": 0.25203252032520324,
+      "tag_browser_width": 0.1187648456057007
+    },
+    "wide_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    }
   },
   "memory_view books view state": {
     "column_alignment": {
@@ -923,6 +952,7 @@
   },
   "quick_start_guide_added": true,
   "quickview visible": false,
+  "qv_open_at_shutdown": false,
   "recently_used_languages": [
     "English",
     "Dutch"

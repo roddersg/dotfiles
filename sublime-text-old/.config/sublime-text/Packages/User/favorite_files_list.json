@@ -1,0 +1,37 @@
+{
+    "files": [
+        {
+            "alias": "@Series.txt",
+            "file": "/home/rodney/Documents/@Series.txt"
+        },
+        {
+            "alias": "notes.txt",
+            "file": "/home/rodney/workspace/notes.txt"
+        }
+    ],
+    "groups": {
+        "jav": [
+            {
+                "alias": "259.txt",
+                "file": "/home/rodney/Documents/259.txt"
+            },
+            {
+                "alias": "229.txt",
+                "file": "/home/rodney/Documents/229.txt"
+            },
+            {
+                "alias": "holding.txt",
+                "file": "/home/rodney/python/rip/holding.txt"
+            },
+            {
+                "alias": "updates.txt",
+                "file": "/home/rodney/python/rip/updates.txt"
+            },
+            {
+                "alias": "jav_act.txt",
+                "file": "/home/rodney/idrive/JD/00akiba/jav_act.txt"
+            }
+        ]
+    },
+    "version": 2
+}

@@ -4,5 +4,13 @@
 	// Close all windows
   	{ "keys": ["super+ctrl+alt+w"], "command": "close_all" },
   	// Title Case
-  	{ "keys": ["ctrl+k","ctrl+t"], "command": "title_case" }
+  	{ "keys": ["ctrl+k","ctrl+t"], "command": "title_case" },
+  	// 1080 split macro
+    { "keys": ["ctrl+shift+alt+z"], "command": "run_macro_file", "args": {"file": "Packages/User/1080split.sublime-macro"} },
+    // truncate, add - and actress
+    { "keys": ["ctrl+shift+alt+a"], "command": "run_macro_file", "args": {"file": "Packages/User/jav_trunc_add_actress.sublime-macro"} },
+    // totaldiscs
+    { "keys": ["ctrl+shift+alt+t"], "command": "run_macro_file", "args": {"file": "Packages/User/totaldiscs.sublime-macro"} },
+    // todays date
+    { "keys": ["ctrl+shift+alt+d"], "command": "run_macro_file", "args": {"file": "Packages/User/today.sublime-macro"} }
 ]

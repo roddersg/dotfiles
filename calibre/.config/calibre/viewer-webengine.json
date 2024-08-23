@@ -2,27 +2,27 @@
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
       "height": 757,
-      "width": 920,
-      "x": 519,
+      "width": 906,
+      "x": 526,
       "y": 175
     },
     "full_screened": false,
     "geometry": {
       "height": 720,
-      "width": 920,
-      "x": 519,
+      "width": 906,
+      "x": 526,
       "y": 212
     },
     "maximized": false,
     "normal_geometry": {
       "height": 720,
-      "width": 920,
-      "x": 519,
+      "width": 906,
+      "x": 526,
       "y": 212
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAIHAAAArwAABZ4AAAOjAAACBwAAANQAAAWeAAADowAAAAAAAAAAB4AAAAIHAAAA1AAABZ4AAAOj"
+      "__value__": "AdnQywADAAAAAAIOAAAArwAABZcAAAOjAAACDgAAANQAAAWXAAADowAAAAAAAAAAB4AAAAIOAAAA1AAABZcAAAOj"
     },
     "screen": {
       "depth": 24,
@@ -36,7 +36,7 @@
       "index_in_screens_list": 0,
       "manufacturer": "Samsung Electric Company",
       "model": "S27F350",
-      "name": "DP-2",
+      "name": "HDMI-2",
       "serial": "H4ZH400474",
       "size_in_logical_pixels": {
         "height": 1080,
@@ -44,7 +44,7 @@
       },
       "virtual_geometry": {
         "height": 1080,
-        "width": 3840,
+        "width": 1920,
         "x": 0,
         "y": 0
       }
@@ -56,7 +56,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAESAAAC0PwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAALQAAAAlQD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB9AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOcA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAMkA////AAACgAAAAtAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAESAAAC0PwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAALQAAAAlQD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB8AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOcA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANAA////AAACcgAAAtAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "saved-search-settings": {
@@ -82,6 +82,39 @@
       "singleinstance": false
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "David M. Beazley"
+        ],
+        "key": "/home/rodney/python/ebooks/Python Distilled - David M Beazley.epub",
+        "pathtoebook": "/home/rodney/python/ebooks/Python Distilled - David M Beazley.epub",
+        "timestamp": "2024-06-18T04:12:50.540Z",
+        "title": "Python Distilled"
+      },
+      {
+        "authors": [
+          "David M. Beazley"
+        ],
+        "key": "/home/rodney/Downloads/Python Distilled - David M Beazley.epub",
+        "pathtoebook": "/home/rodney/Downloads/Python Distilled - David M Beazley.epub",
+        "timestamp": "2024-06-15T19:30:58.954Z",
+        "title": "Python Distilled"
+      },
+      {
+        "authors": [
+          "Craig Robertson"
+        ],
+        "key": "/home/rodney/Downloads/knock/The Last Refuge - Craig Robertson.epub",
+        "pathtoebook": "/home/rodney/Downloads/knock/The Last Refuge - Craig Robertson.epub",
+        "timestamp": "2024-05-19T18:23:08.967Z",
+        "title": "The Last Refuge"
+      },
+      {
+        "key": "/media/rodney/Seagate/00ebooks/ecomics/hotmoms1-13.rar/HOT MOMS-1 POOL PARTY/HOT MOMS-1 POOL PARTY.epub",
+        "pathtoebook": "/media/rodney/Seagate/00ebooks/ecomics/hotmoms1-13.rar/HOT MOMS-1 POOL PARTY/HOT MOMS-1 POOL PARTY.epub",
+        "timestamp": "2024-02-03T06:38:12.590Z",
+        "title": "HOT MOMS-1 POOL PARTY"
+      },
       {
         "authors": [
           "Hunter, Scott"
@@ -258,42 +291,6 @@
         "pathtoebook": "/home/rodney/idrive/JD/00ebooks/11/ARDUINO FOR BEGINNERS_ A TOP-NOTCH GUIDE.epub",
         "timestamp": "2022-03-11T12:55:23.756Z",
         "title": "ARDUINO FOR BEGINNERS: A TOP-NOTCH GUIDE"
-      },
-      {
-        "authors": [
-          "Wendy Soliman"
-        ],
-        "key": "/home/rodney/Downloads/complete_old/00others/ebooks/Wendy Soliman - A Scandalous Proposition (epub).epub",
-        "pathtoebook": "/home/rodney/Downloads/complete_old/00others/ebooks/Wendy Soliman - A Scandalous Proposition (epub).epub",
-        "timestamp": "2022-03-11T09:39:33.446Z",
-        "title": "A Scandalous Proposition"
-      },
-      {
-        "authors": [
-          "Don Bentley"
-        ],
-        "key": "/home/rodney/Downloads/complete/jack-Ryan-universe/Tom Clancy - Jack Ryan Universe 31 - Tom Clancy Target Acquired by Don Bentley.epub",
-        "pathtoebook": "/home/rodney/Downloads/complete/jack-Ryan-universe/Tom Clancy - Jack Ryan Universe 31 - Tom Clancy Target Acquired by Don Bentley.epub",
-        "timestamp": "2022-03-08T00:14:56.144Z",
-        "title": "Tom Clancy Target Acquired"
-      },
-      {
-        "authors": [
-          "Lisa Gardner"
-        ],
-        "key": "/home/rodney/Downloads/complete/lisa-gardner-warren/Lisa Gardner - [Detective D. D. Warren 04] - Live to Tell (v5.0).epub",
-        "pathtoebook": "/home/rodney/Downloads/complete/lisa-gardner-warren/Lisa Gardner - [Detective D. D. Warren 04] - Live to Tell (v5.0).epub",
-        "timestamp": "2022-03-07T18:35:01.602Z",
-        "title": "Live to Tell"
-      },
-      {
-        "authors": [
-          "Pamfiloff, Mimi Jean"
-        ],
-        "key": "/home/rodney/akiba/ELibrary/Calibre Library/Pamfiloff, Mimi Jean/Battle of the Bulge (1529)/Battle of the Bulge - Pamfiloff, Mimi Jean.epub",
-        "pathtoebook": "/home/rodney/akiba/ELibrary/Calibre Library/Pamfiloff, Mimi Jean/Battle of the Bulge (1529)/Battle of the Bulge - Pamfiloff, Mimi Jean.epub",
-        "timestamp": "2022-02-01T18:33:14.145Z",
-        "title": "Battle of the Bulge"
       }
     ]
   },

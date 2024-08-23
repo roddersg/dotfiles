@@ -1,0 +1,25 @@
+[
+	{
+		"args":
+		{
+			"format": null,
+			"tz_in": null,
+			"tz_out": null
+		},
+		"command": "insert_date"
+	},
+	{
+		"args":
+		{
+			"characters": ","
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " "
+		},
+		"command": "insert"
+	}
+]

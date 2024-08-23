@@ -5,7 +5,7 @@
 ###############################
 
 # export TERM='rxvt-256color'
-export TERM="kitty"
+# export TERM="xterm-kitty"
 export DOTFILES="$HOME/dotfiles"
 export WORKSPACE="$HOME/workspace"
 

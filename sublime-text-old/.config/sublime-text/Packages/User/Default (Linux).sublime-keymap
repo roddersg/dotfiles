@@ -1,0 +1,10 @@
+[
+	// InsertDate
+	{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+	// Close all windows
+  	{ "keys": ["super+ctrl+alt+w"], "command": "close_all" },
+  	// Title Case
+  	{ "keys": ["ctrl+k","ctrl+t"], "command": "title_case" },
+  	// 1080 split macro
+    { "keys": ["ctrl+shift+alt+z"], "command": "run_macro_file", "args": {"file": "Packages/User/1080split.sublime-macro"} }
+]

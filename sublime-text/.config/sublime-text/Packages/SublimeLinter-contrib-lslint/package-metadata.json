@@ -1,0 +1,1 @@
+{"version": "1.4.3", "platforms": ["*"], "url": "https://github.com/XenHat/SublimeLinter-contrib-lslint", "sublime_text": ">=3000", "dependencies": [], "description": "LSL linting for Sublime Text 3"}

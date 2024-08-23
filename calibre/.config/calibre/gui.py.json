@@ -46,6 +46,7 @@
   "jobs_search_history": [],
   "lrf_viewer_search_history": [],
   "main_search_history": [
+    "nvim",
     "agatha christie",
     "from beirut",
     "prodigal",
@@ -69,8 +70,7 @@
     "unix",
     "bash",
     "Linux",
-    "author:\"child\"",
-    "cHILD"
+    "author:\"child\""
   ],
   "main_window_geometry": {
     "__class__": "bytearray",

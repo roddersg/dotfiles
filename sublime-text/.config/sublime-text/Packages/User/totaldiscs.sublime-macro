@@ -1,0 +1,41 @@
+[
+	{
+		"args":
+		{
+			"characters": "REM"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " TOTAL"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "DISCS"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " "
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "2"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	}
+]

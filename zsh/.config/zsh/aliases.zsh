@@ -10,7 +10,7 @@
 # if eza exist, alias to ls
 if (( ${+commands[eza]} )); then
 	# alias eza='eza --group-directories-first --hyperlink'
-    alias eza='eza --group-directories-first --color never'
+    alias eza='\eza --group-directories-first --color never'
     alias ls='eza'
     alias l='eza -1'
     alias la='eza -1a'
@@ -20,7 +20,7 @@ if (( ${+commands[eza]} )); then
     alias llt='eza -T'				# tree style
     alias llfu='eza -bghHliS --git'
 else
-    alias l='ls -1A'         # Lists in one column, hidden files.
+    alias l='\ls -1A'         # Lists in one column, hidden files.
     alias ll='ls -lh'        # Lists human readable sizes.
     alias lr='ll -R'         # Lists human readable sizes, recursively.
     alias la='ll -A'         # Lists human readable sizes, hidden files.
@@ -37,6 +37,7 @@ alias grep='\grep --color=auto'
 alias igrep='\grep -i'
 alias diff="\diff --color=auto"
 alias mv="\mv -i"
+alias mvf="\mv"
 alias rm="\rm -i"
 alias rmf="\rm"
 alias df="\df -h"
@@ -92,3 +93,20 @@ fi
 
 # personal
 alias pr2='f(){par2 r -q "$1" | grep "found" | sed "s|Target: |mv ../|;s|\- found||" > x.sh };f'
+# get rid of mac turds
+alias showdotfiles='find . -name "._*" -type f -print'
+alias deldotfiles='find . -name "._*" -type f -delete'
+# search javlibrary for code
+alias jls='f(){ open "https://www.javlibrary.com/en/vl_searchbyid.php?list&keyword=$1" };f'
+alias jrip='cd /home/rodney/python/rip;./rip_v8.py'
+alias rename_mr='rename "s|Mosaic_reduce_([^\.]+)\.m|$1_MR\.m|i" *.m*'
+alias javss='javss.sh'
+
+
+#graphics
+alias icat="kitten icat"
+alias view="eog"
+alias play="celluloid"
+
+
+

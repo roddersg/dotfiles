@@ -16,8 +16,11 @@
 		"Predawn",
 		"Predawn Twilight Theme",
 		"SublimeLinter",
+		"SublimeLinter-contrib-lslint",
+		"SublimeLinter-stylelint",
 		"Terminus",
 		"TrailingSpaces",
+		"Typewriter",
 	],
 	"in_process_packages":
 	[

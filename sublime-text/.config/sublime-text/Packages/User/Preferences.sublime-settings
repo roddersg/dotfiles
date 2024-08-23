@@ -1,6 +1,6 @@
 {
-	"font_face" : "JetBrainsMono Nerd Font",
-	"font_size": 13,
+	"font_face" : "Source Code Pro",
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage",
@@ -14,4 +14,5 @@
     "predawn_quick_panel_small": false,
 
 	"index_files": true,
+	"show_encoding" : true,
 }

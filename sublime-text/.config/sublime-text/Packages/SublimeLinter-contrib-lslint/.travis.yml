@@ -1,0 +1,8 @@
+language: python
+cache: pip
+python:
+  - "3.6" # preinstalled
+install:
+  - pip install flake8 flake8-docstrings
+script:
+  - flake8 ./linter.py --max-line-length=80

@@ -39,6 +39,14 @@ zsh_add_file "completions.zsh"
 # my custom keymaps
 zsh_add_file "keymaps.zsh"
 
+# bindings.zsh
+# bindings for zsh Line Editor see https://thevaluable.dev/zsh-line-editor-configuration-mouseless/
+# zsh_add_file "bindings.zsh"
+
+# reveal-command.zsh
+# shows the actual cmd beign executed if it is an alias
+zsh_add_file "reveal-command.zsh"
+
 
 # # plugins--------------------------------------------------------------------
 source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
@@ -65,8 +73,11 @@ bindkey '^[[B' history-substring-search-down # or '\eOB'
 # if the above don't work
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
+
 HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1
 
+# bindkey -M viins '^[[3~' beginning-of-line
+# bindkey -M viins '^[OF' end-of-line
 
 # colours
 autoload -U colors && colors        # colours
@@ -113,17 +124,17 @@ fi
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/rodney/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/rodney/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/rodney/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/rodney/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+# __conda_setup="$('/home/rodney/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__conda_setup"
+# else
+#     if [ -f "/home/rodney/miniconda3/etc/profile.d/conda.sh" ]; then
+#         . "/home/rodney/miniconda3/etc/profile.d/conda.sh"
+#     else
+#         export PATH="/home/rodney/miniconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
 # <<< conda initialize <<<
 
 

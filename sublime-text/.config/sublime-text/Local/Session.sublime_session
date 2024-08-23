@@ -1,0 +1,836 @@
+{
+	"file_history":
+	[
+		"/home/rodney/python/rip/holding.txt",
+		"/home/rodney/Music/done/00xfered/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+		"/media/rodney/astor/music/lossless/cdimages/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+		"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/1970-This Is Love/Archies, The - This Is Love.cue",
+		"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/2012-Jingle Jangle/Archies, The - Jingle Jangle.cue",
+		"/home/rodney/Music/done/00xfered/p-t/Steep Canyon Rangers/2015-Be Still Moses/Steep Canyon Rangers - Be Still Moses.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD10 1959.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD09 1958.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD08 1957.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD07 1956.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD06 1955.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD05 1954.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD04 1953.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD03 1952.cue",
+		"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD02 1951.cue",
+		"/home/rodney/Music/done/cdimages-new/Yu Fa Yu Band (雨法雨乐队)/2021-Sleeping Soundly (一夜好眠)/Yu Fa Yu Band (雨法雨乐队) - Sleeping Soundly (一夜好眠).cue",
+		"/home/rodney/Downloads/zzMusicDone/zzThe-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+		"/home/rodney/Downloads/zzMusicDone/zzThe-Fabulous-Thunderbirds-2024-Struck-Down/The Fabulous Thunderbirds - Struck Down.cue",
+		"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD16 2020 Hide & Seek~The Lost Collection 1.cue",
+		"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 1.cue",
+		"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/template",
+		"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/filelist",
+		"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/Tom Jones - The Complete Decca Studio Albums Collection CD16 The Lost Collection 1.cue",
+		"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 2.cue",
+		"/home/rodney/Desktop/notes.txt",
+		"/home/rodney/Music/done/cdimages-current/Monty Alexander/2024-D-Day/Monty Alexander - D-Day.cue",
+		"/home/rodney/Music/done/cdimages-current/Various Artists/1991-Sounds Of The Seventies Rock 'N' Soul Seventies/Various - Sounds Of The Seventies Rock 'N' Soul Seventies.cue",
+		"/home/rodney/Music/done/cdimages/Misia/2019-Pura Vida (Banda Sonora)/Misia - Pura Vida (Banda Sonora).cue",
+		"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD02.cue",
+		"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD01.cue",
+		"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD02.cue",
+		"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD01.cue",
+		"/home/rodney/Music/done/cdimages/Misia/2005-Drama Box/Misia - Drama Box.cue",
+		"/home/rodney/Music/done/cdimages/Misia/2003-Canto/Misia - Canto.cue",
+		"/home/rodney/Music/done/cdimages/Misia/2001-Ritual/Misia - Ritual.cue",
+		"/home/rodney/Music/done/cdimages/Misia/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+		"/home/rodney/Music/done/cdimages/Misia/1993-Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+		"/home/rodney/Music/done/cdimages/Misia/1993-Fado/Misia - Fado.cue",
+		"/home/rodney/Downloads/zzMusicDone/zzMisia 9 albums/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+		"/home/rodney/Music/done/cdimages/Blondie/1999-Greatest Hits (Remastered)/Blondie - Greatest Hits (Remastered) CD02 Bonus Maria.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/Misia - Pura Vida (Banda Sonora).cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/Misia - Paara Amalia CD02.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/Misia - Paara Amalia CD01.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/Misia - Ruas CD02.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/Misia - Ruas CD01.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/Misia - Drama Box.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/Misia - Canto.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/Misia - Ritual.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/template",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/filelist",
+		"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/Misia - Fado.cue",
+		"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/template",
+		"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/filelist",
+		"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/Jay Schwartz - Music For Orchestra, Six Voices, 12 Cellos, Five Stringed Instruments.cue",
+		"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/template",
+		"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/filelist",
+		"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/Various - Best Runway Music For Fashion.cue",
+		"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/template",
+		"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/filelist",
+		"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/Various - Sunset Emotions Vol 9, Compiled by Marco Celloni.cue",
+		"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/template",
+		"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/filelist",
+		"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/Various - Elegant Evening Urban Chillout Music.cue",
+		"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/template",
+		"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/filelist",
+		"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/Various - Chillout & Lounge Music Summer Vibes.cue",
+		"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/template",
+		"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/Carloz Afonzo - Best Of Carloz Afonzo.cue",
+		"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/filelist",
+		"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/template",
+		"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/filelist",
+		"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/Various - Urban Nightlife Sounds.cue",
+		"/home/rodney/idrive/JD/00akiba/08uc18/00ratings.txt",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/The Police - Synchronicity (Super Deluxe Ed) CD06.cue",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/template",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/filelist",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/The Police - Synchronicity (Super Deluxe Ed) CD04.cue",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/The Police - Synchronicity (Super Deluxe Ed) CD05.cue",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/template",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/filelist",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/template",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/filelist",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/template",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/filelist",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/The Police - Synchronicity (Super Deluxe Ed) CD03.cue",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/The Police - Synchronicity (Super Deluxe Ed) CD02.cue",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/template",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/template",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/filelist",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/filelist",
+		"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+		"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/filelist",
+		"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/template",
+		"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/Various - Sun Records Sings Elvis Presley.cue",
+		"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/foo_dr.txt",
+		"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/template",
+		"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/filelist",
+		"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue",
+		"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template",
+		"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/filelist",
+		"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/Lou Reed - A Night Like This (Live San Francisco '78).cue",
+		"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/template",
+		"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/filelist",
+		"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/Louis Armstrong - Louis In London Live At The BBC.cue",
+		"/home/rodney/Downloads/complete/Lindsey-Stirling-2024-Duali/template"
+	],
+	"folder_history":
+	[
+		"/media/rodney/astor/music/lossless/cdimages/p-t/Riccardo Chailly, Gewandhausorchester/2013-Brahms The Symphonies",
+		"/home/rodney/Music/done/cdimages/Jeff Healey Band, The/1988-See The Light",
+		"/home/rodney/Downloads/complete/Elvis Presley - The Album Collection/Elvis Presley - The Album Collection/1958 - Elvis' Golden Records/scans",
+		"/home/rodney/Downloads/complete/Alice-Russell",
+		"/media/rodney/Music_A_1/music/lossless/cdimages/a-e/Celtic Woman/2016-Destiny",
+		"/home/rodney/Music/done/cdimages/temp/2007-Supreme Stereo Sound Series No 10 Glory",
+		"/media/rodney/Music_A_3/music/lossless/cdimages/Various/2014 Grammy Nominees",
+		"/home/rodney/Downloads/complete/Lorrie-Morgan-Merry-Christmas-From-London"
+	],
+	"last_version": 4180,
+	"last_window_id": 51,
+	"log_indexing": false,
+	"next_update_check": 1724404140,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 618.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			197.0,
+			221.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Snippet: ",
+						"Snippet: newtemplate"
+					],
+					[
+						"close",
+						"File: Close All"
+					],
+					[
+						"Fav",
+						"Favorite Files: Add File(s)"
+					],
+					[
+						"type",
+						"Typewriter: Scrolling Mode (Toggle)"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"f",
+						"Favorite Files: Open File(s)"
+					],
+					[
+						"fav",
+						"Favorite Files: Open File(s)"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 160.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rodney/python/rip/holding.txt",
+				"/home/rodney/Music/done/00xfered/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/1970-This Is Love/Archies, The - This Is Love.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/2012-Jingle Jangle/Archies, The - Jingle Jangle.cue",
+				"/home/rodney/Music/done/00xfered/p-t/Steep Canyon Rangers/2015-Be Still Moses/Steep Canyon Rangers - Be Still Moses.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD10 1959.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD09 1958.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD08 1957.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD07 1956.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD06 1955.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD05 1954.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD04 1953.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD03 1952.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD02 1951.cue",
+				"/home/rodney/Music/done/cdimages-new/Yu Fa Yu Band (雨法雨乐队)/2021-Sleeping Soundly (一夜好眠)/Yu Fa Yu Band (雨法雨乐队) - Sleeping Soundly (一夜好眠).cue",
+				"/home/rodney/Downloads/zzMusicDone/zzThe-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+				"/home/rodney/Downloads/zzMusicDone/zzThe-Fabulous-Thunderbirds-2024-Struck-Down/The Fabulous Thunderbirds - Struck Down.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD16 2020 Hide & Seek~The Lost Collection 1.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 1.cue",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/template",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/filelist",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/Tom Jones - The Complete Decca Studio Albums Collection CD16 The Lost Collection 1.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 2.cue",
+				"/home/rodney/Desktop/notes.txt",
+				"/home/rodney/Music/done/cdimages-current/Monty Alexander/2024-D-Day/Monty Alexander - D-Day.cue",
+				"/home/rodney/Music/done/cdimages-current/Various Artists/1991-Sounds Of The Seventies Rock 'N' Soul Seventies/Various - Sounds Of The Seventies Rock 'N' Soul Seventies.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2019-Pura Vida (Banda Sonora)/Misia - Pura Vida (Banda Sonora).cue",
+				"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD02.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD01.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD02.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD01.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2005-Drama Box/Misia - Drama Box.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2003-Canto/Misia - Canto.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2001-Ritual/Misia - Ritual.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1993-Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1993-Fado/Misia - Fado.cue",
+				"/home/rodney/Downloads/zzMusicDone/zzMisia 9 albums/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+				"/home/rodney/Music/done/cdimages/Blondie/1999-Greatest Hits (Remastered)/Blondie - Greatest Hits (Remastered) CD02 Bonus Maria.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/Misia - Pura Vida (Banda Sonora).cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/Misia - Paara Amalia CD02.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/Misia - Paara Amalia CD01.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/Misia - Ruas CD02.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/Misia - Ruas CD01.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/Misia - Drama Box.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/Misia - Canto.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/Misia - Ritual.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/Misia - Fado.cue",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/template",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/filelist",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/Jay Schwartz - Music For Orchestra, Six Voices, 12 Cellos, Five Stringed Instruments.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/Various - Best Runway Music For Fashion.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/Various - Sunset Emotions Vol 9, Compiled by Marco Celloni.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/Various - Elegant Evening Urban Chillout Music.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/Various - Chillout & Lounge Music Summer Vibes.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/Carloz Afonzo - Best Of Carloz Afonzo.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/template",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/filelist",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/Various - Urban Nightlife Sounds.cue",
+				"/home/rodney/idrive/JD/00akiba/08uc18/00ratings.txt",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/The Police - Synchronicity (Super Deluxe Ed) CD06.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/The Police - Synchronicity (Super Deluxe Ed) CD04.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/The Police - Synchronicity (Super Deluxe Ed) CD05.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/The Police - Synchronicity (Super Deluxe Ed) CD03.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/The Police - Synchronicity (Super Deluxe Ed) CD02.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/filelist",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/template",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/Various - Sun Records Sings Elvis Presley.cue",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/foo_dr.txt",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/template",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/filelist",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue",
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template",
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/filelist",
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/Lou Reed - A Night Like This (Live San Francisco '78).cue",
+				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/template",
+				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/filelist",
+				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/Louis Armstrong - Louis In London Live At The BBC.cue",
+				"/home/rodney/Downloads/complete/Lindsey-Stirling-2024-Duali/template"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"https://"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 144.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1136.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Snippet: ",
+						"Snippet: newtemplate"
+					],
+					[
+						"close",
+						"File: Close All"
+					],
+					[
+						"Fav",
+						"Favorite Files: Add File(s)"
+					],
+					[
+						"type",
+						"Typewriter: Scrolling Mode (Toggle)"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"f",
+						"Favorite Files: Open File(s)"
+					],
+					[
+						"fav",
+						"Favorite Files: Open File(s)"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 160.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rodney/python/rip/holding.txt",
+				"/home/rodney/Music/done/00xfered/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/1970-This Is Love/Archies, The - This Is Love.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/2012-Jingle Jangle/Archies, The - Jingle Jangle.cue",
+				"/home/rodney/Music/done/00xfered/p-t/Steep Canyon Rangers/2015-Be Still Moses/Steep Canyon Rangers - Be Still Moses.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD10 1959.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD09 1958.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD08 1957.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD07 1956.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD06 1955.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD05 1954.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD04 1953.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD03 1952.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD02 1951.cue",
+				"/home/rodney/Music/done/cdimages-new/Yu Fa Yu Band (雨法雨乐队)/2021-Sleeping Soundly (一夜好眠)/Yu Fa Yu Band (雨法雨乐队) - Sleeping Soundly (一夜好眠).cue",
+				"/home/rodney/Downloads/zzMusicDone/zzThe-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+				"/home/rodney/Downloads/zzMusicDone/zzThe-Fabulous-Thunderbirds-2024-Struck-Down/The Fabulous Thunderbirds - Struck Down.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD16 2020 Hide & Seek~The Lost Collection 1.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 1.cue",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/template",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/filelist",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/Tom Jones - The Complete Decca Studio Albums Collection CD16 The Lost Collection 1.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 2.cue",
+				"/home/rodney/Desktop/notes.txt",
+				"/home/rodney/Music/done/cdimages-current/Monty Alexander/2024-D-Day/Monty Alexander - D-Day.cue",
+				"/home/rodney/Music/done/cdimages-current/Various Artists/1991-Sounds Of The Seventies Rock 'N' Soul Seventies/Various - Sounds Of The Seventies Rock 'N' Soul Seventies.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2019-Pura Vida (Banda Sonora)/Misia - Pura Vida (Banda Sonora).cue",
+				"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD02.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD01.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD02.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD01.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2005-Drama Box/Misia - Drama Box.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2003-Canto/Misia - Canto.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2001-Ritual/Misia - Ritual.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1993-Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1993-Fado/Misia - Fado.cue",
+				"/home/rodney/Downloads/zzMusicDone/zzMisia 9 albums/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+				"/home/rodney/Music/done/cdimages/Blondie/1999-Greatest Hits (Remastered)/Blondie - Greatest Hits (Remastered) CD02 Bonus Maria.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/Misia - Pura Vida (Banda Sonora).cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/Misia - Paara Amalia CD02.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/Misia - Paara Amalia CD01.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/Misia - Ruas CD02.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/Misia - Ruas CD01.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/Misia - Drama Box.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/Misia - Canto.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/Misia - Ritual.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/Misia - Fado.cue",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/template",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/filelist",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/Jay Schwartz - Music For Orchestra, Six Voices, 12 Cellos, Five Stringed Instruments.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/Various - Best Runway Music For Fashion.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/Various - Sunset Emotions Vol 9, Compiled by Marco Celloni.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/Various - Elegant Evening Urban Chillout Music.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/Various - Chillout & Lounge Music Summer Vibes.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/Carloz Afonzo - Best Of Carloz Afonzo.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/template",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/filelist",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/Various - Urban Nightlife Sounds.cue",
+				"/home/rodney/idrive/JD/00akiba/08uc18/00ratings.txt",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/The Police - Synchronicity (Super Deluxe Ed) CD06.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/The Police - Synchronicity (Super Deluxe Ed) CD04.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/The Police - Synchronicity (Super Deluxe Ed) CD05.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/The Police - Synchronicity (Super Deluxe Ed) CD03.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/The Police - Synchronicity (Super Deluxe Ed) CD02.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/filelist",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/template",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/Various - Sun Records Sings Elvis Presley.cue",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/foo_dr.txt",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/template",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/filelist",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue",
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template",
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/filelist",
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/Lou Reed - A Night Like This (Live San Francisco '78).cue",
+				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/template",
+				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/filelist",
+				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/Louis Armstrong - Louis In London Live At The BBC.cue",
+				"/home/rodney/Downloads/complete/Lindsey-Stirling-2024-Duali/template"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"https://"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 144.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,197,150,1333,768,1920,1080,1",
+			"project": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 51,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

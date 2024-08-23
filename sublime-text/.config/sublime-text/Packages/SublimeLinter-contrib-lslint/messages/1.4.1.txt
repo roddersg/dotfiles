@@ -1,0 +1,9 @@
+SublimeLinter-contrib-lslint
+-------------------------------
+v1.4.1
+
+Push all fixes I forgot to release. The linter should work again.
+
+A thousand apologies for the overdue release.
+Please file issues at:
+https://github.com/XenHat/SublimeLinter-contrib-lslint/issues

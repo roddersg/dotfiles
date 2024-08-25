@@ -94,20 +94,20 @@ autoload -U colors && colors        # colours
 # # fzf key bindings------------------------------------------------------------
 # # you need to install fzf first
 
-# # Preview file content using bat (https://github.com/sharkdp/bat)
-# export FZF_CTRL_T_OPTS="
-#   --preview 'bat -n --color=always {}'
-#   --bind 'ctrl-/:change-preview-window(down|hidden|)'"
-# # CTRL-/ to toggle small preview window to see the full command
-# # CTRL-Y to copy the command into clipboard using pbcopy
-# export FZF_CTRL_R_OPTS="
-#   --preview 'echo {}' --preview-window up:3:hidden:wrap
-#   --bind 'ctrl-/:toggle-preview'
-#   --bind 'ctrl-y:execute-silent(echo -n {2..} | pbcopy)+abort'
-#   --color header:italic
-#   --header 'Press CTRL-Y to copy command into clipboard'"
-# # Print tree structure in the preview window
-# export FZF_ALT_C_OPTS="--preview 'tree -C {}'"
+# Preview file content using bat (https://github.com/sharkdp/bat)
+export FZF_CTRL_T_OPTS="
+  --preview 'bat -n --color=always {}'
+  --bind 'ctrl-/:change-preview-window(down|hidden|)'"
+# CTRL-/ to toggle small preview window to see the full command
+# CTRL-Y to copy the command into clipboard using pbcopy
+export FZF_CTRL_R_OPTS="
+  --preview 'echo {}' --preview-window up:3:hidden:wrap
+  --bind 'ctrl-/:toggle-preview'
+  --bind 'ctrl-y:execute-silent(echo -n {2..} | pbcopy)+abort'
+  --color header:italic
+  --header 'Press CTRL-Y to copy command into clipboard'"
+# Print tree structure in the preview window
+export FZF_ALT_C_OPTS="--preview 'tree -C {}'"
 
 # # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 # # need to put this near the bottom
@@ -121,20 +121,7 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/home/rodney/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/home/rodney/miniconda3/etc/profile.d/conda.sh" ]; then
-#         . "/home/rodney/miniconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/home/rodney/miniconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# <<< conda initialize <<<
+# configure zoxide
+eval "$(zoxide init zsh)"
 
 

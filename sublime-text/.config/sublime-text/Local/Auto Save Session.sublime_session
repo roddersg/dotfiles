@@ -1,7 +1,14 @@
 {
 	"file_history":
 	[
+		"/home/rodney/.config/zsh/aliases.zsh",
 		"/home/rodney/python/rip/holding.txt",
+		"/home/rodney/python/rip/updates.txt",
+		"/home/rodney/.config/zsh/.zshrc",
+		"/home/rodney/dotfiles/zsh/.config/zsh/aliases.zsh",
+		"/home/rodney/python/cueflac/README.1st",
+		"/home/rodney/python/cueflac_/README.1st",
+		"/home/rodney/python/cueflac/README.md",
 		"/home/rodney/Music/done/00xfered/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
 		"/media/rodney/astor/music/lossless/cdimages/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
 		"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/1970-This Is Love/Archies, The - This Is Love.cue",
@@ -121,14 +128,7 @@
 		"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/foo_dr.txt",
 		"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/template",
 		"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/filelist",
-		"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue",
-		"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template",
-		"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/filelist",
-		"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/Lou Reed - A Night Like This (Live San Francisco '78).cue",
-		"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/template",
-		"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/filelist",
-		"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/Louis Armstrong - Louis In London Live At The BBC.cue",
-		"/home/rodney/Downloads/complete/Lindsey-Stirling-2024-Duali/template"
+		"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue"
 	],
 	"folder_history":
 	[
@@ -142,9 +142,9 @@
 		"/home/rodney/Downloads/complete/Lorrie-Morgan-Merry-Christmas-From-London"
 	],
 	"last_version": 4180,
-	"last_window_id": 51,
+	"last_window_id": 53,
 	"log_indexing": false,
-	"next_update_check": 1724404140,
+	"next_update_check": 1724663340,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -152,8 +152,8 @@
 		"new_window_maximized": false,
 		"new_window_position":
 		[
-			197.0,
-			221.0
+			811.0,
+			477.0
 		],
 		"new_window_settings":
 		{
@@ -231,6 +231,12 @@
 			"file_history":
 			[
 				"/home/rodney/python/rip/holding.txt",
+				"/home/rodney/python/rip/updates.txt",
+				"/home/rodney/.config/zsh/.zshrc",
+				"/home/rodney/dotfiles/zsh/.config/zsh/aliases.zsh",
+				"/home/rodney/python/cueflac/README.1st",
+				"/home/rodney/python/cueflac_/README.1st",
+				"/home/rodney/python/cueflac/README.md",
 				"/home/rodney/Music/done/00xfered/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
 				"/media/rodney/astor/music/lossless/cdimages/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
 				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/1970-This Is Love/Archies, The - This Is Love.cue",
@@ -351,13 +357,7 @@
 				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/template",
 				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/filelist",
 				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue",
-				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template",
-				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/filelist",
-				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/Lou Reed - A Night Like This (Live San Francisco '78).cue",
-				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/template",
-				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/filelist",
-				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/Louis Armstrong - Louis In London Live At The BBC.cue",
-				"/home/rodney/Downloads/complete/Lindsey-Stirling-2024-Duali/template"
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template"
 			],
 			"find":
 			{
@@ -375,6 +375,14 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"https",
+					"(\\S+\\-\\d+) .*",
+					"^(\\s{1-4}-\\D+) ,*",
+					"\n",
+					"----",
+					"https:",
+					"https",
+					"https:",
 					"https://"
 				],
 				"highlight": true,
@@ -383,6 +391,7 @@
 				"regex": true,
 				"replace_history":
 				[
+					"$1"
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
@@ -428,7 +437,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 76.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -468,7 +477,7 @@
 			{
 			}
 		},
-		"new_window_width": 1136.0
+		"new_window_width": 1101.0
 	},
 	"windows":
 	[
@@ -482,14 +491,927 @@
 			"buffers":
 			[
 				{
-					"file": "/home/rodney/python/cueflac_/README.1st",
+					"file": "/home/rodney/python/rip/holding.txt",
 					"settings":
 					{
-						"buffer_size": 1268,
+						"buffer_size": 350122,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					},
 					"undo_stack":
 					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							3,
+							1,
+							"insert",
+							{
+								"characters": "----0"
+							},
+							"BQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": "8"
+							},
+							"AQAAAAUAAAAAAAAABgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": "25"
+							},
+							"AgAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n\n\n\n\n\n\n\n"
+							},
+							"CgAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n\n\n\n\n"
+							},
+							"BwAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n"
+							},
+							"AwAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"",
+							null,
+							"AQAAAAkAAAAAAAAAiwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"",
+							null,
+							"AQAAAIwBAAAAAAAA+gIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiwEAAAAAAACLAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"",
+							null,
+							"AQAAAPsCAAAAAAAAIAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA+gIAAAAAAAD6AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"",
+							null,
+							"AQAAACEEAAAAAAAAQgUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIAQAAAAAAAAgBAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"",
+							null,
+							"AQAAAEMFAAAAAAAAzQYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQgUAAAAAAABCBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"",
+							null,
+							"AQAAAM4GAAAAAAAARwgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzQYAAAAAAADNBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"",
+							null,
+							"AQAAAEgIAAAAAAAAoAkAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARwgAAAAAAABHCAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"",
+							null,
+							"AQAAAKEJAAAAAAAARwsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAoAkAAAAAAACgCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"",
+							null,
+							"AQAAAEgLAAAAAAAAiQwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARwsAAAAAAABHCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"",
+							null,
+							"AQAAAIoMAAAAAAAALQ4AAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiQwAAAAAAACJDAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"",
+							null,
+							"AQAAAC4OAAAAAAAAaQ8AAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQ4AAAAAAAAtDgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"",
+							null,
+							"AQAAAGoPAAAAAAAAxRAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaQ8AAAAAAABpDwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							1,
+							"",
+							null,
+							"AQAAAMYQAAAAAAAAHBIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxRAAAAAAAADFEAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"",
+							null,
+							"AQAAAB0SAAAAAAAAexMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHBIAAAAAAAAcEgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							1,
+							"",
+							null,
+							"AQAAAHwTAAAAAAAANxUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAexMAAAAAAAB7EwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"",
+							null,
+							"AQAAADgVAAAAAAAA7xYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANxUAAAAAAAA3FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"",
+							null,
+							"AQAAAPAWAAAAAAAAJhgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA7xYAAAAAAADvFgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"",
+							null,
+							"AQAAACcYAAAAAAAAlBkAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJhgAAAAAAAAmGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"",
+							null,
+							"AQAAAJUZAAAAAAAAFhsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlBkAAAAAAACUGQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n\n\n\n"
+							},
+							"BgAAABgbAAAAAAAAGRsAAAAAAAAAAAAAGRsAAAAAAAAaGwAAAAAAAAAAAAAaGwAAAAAAABsbAAAAAAAAAAAAABsbAAAAAAAAHBsAAAAAAAAAAAAAHBsAAAAAAAAdGwAAAAAAAAAAAAAdGwAAAAAAAB4bAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGBsAAAAAAAAYGwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"",
+							null,
+							"AQAAABcbAAAAAAAAnhwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHhsAAAAAAAAeGwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"",
+							null,
+							"AQAAAJ8cAAAAAAAADx4AAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAnhwAAAAAAACeHAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"",
+							null,
+							"AQAAABAeAAAAAAAA5h4AAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADx4AAAAAAAAPHgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"",
+							null,
+							"AQAAAOceAAAAAAAAKiEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA5h4AAAAAAADmHgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"",
+							null,
+							"AQAAACshAAAAAAAAiSIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKiEAAAAAAAAqIQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"",
+							null,
+							"AQAAAIoiAAAAAAAA4SMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiSIAAAAAAACJIgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"",
+							null,
+							"AQAAAOIjAAAAAAAALyUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA4SMAAAAAAADhIwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"",
+							null,
+							"AQAAADAlAAAAAAAAIycAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALyUAAAAAAAAvJQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							49,
+							1,
+							"run_macro_file",
+							{
+								"file": "res://Packages/Default/Delete Line.sublime-macro"
+							},
+							"NgAAAOYmAAAAAAAA5iYAAAAAAAA+AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L2Nqb2Q0MzMvY2pvZDQzM3BsLmpwZwowJgAAAAAAADAmAAAAAAAAtgAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS8wMTYxM2ZmMGNiMzJkYjI0MTA1MDg3NTRhMzc1Zjk0YS9Nb3NhaWNfcmVkdWNlX0NKT0QtNDMzLm1wNDtodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvMmY1ZmE3ZjNjODI0ZDQ2ODYyNTRjZDhmMjVlMzRhNmQvTW9zYWljX3JlZHVjZV9DSk9ELTQzMy4xMDgwcC5tcDQK6CQAAAAAAADoJAAAAAAAAEgAAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvaF8yMzdhbWJpMTMwL2hfMjM3YW1iaTEzMHBsLmpwZwoyJAAAAAAAADIkAAAAAAAAtgAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS9kZjcxN2I3MzE1MTVkMjQxZjA2Yjc5Y2IwMzcxMGUwNS9Nb3NhaWNfcmVkdWNlX0FNQkktMTMwLm1wNDtodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvYjA3OTFmOWQ2N2Y3ZmU5YTdiODRkZjNlNjI4NzljNjIvTW9zYWljX3JlZHVjZV9BTUJJLTEzMC4xMDgwcC5tcDQKmiMAAAAAAACaIwAAAAAAAEgAAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvaF8yMzdhbWJpMTM1L2hfMjM3YW1iaTEzNXBsLmpwZwrkIgAAAAAAAOQiAAAAAAAAtgAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS9mNTVkZDhmZTA4NmJiNzJmMGI4NzlhMTk0NjFhODc5ZS9Nb3NhaWNfcmVkdWNlX0FNQkktMTM1Lm1wNDtodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvOTQ0ODFmNTg4NWFmNDc4ZDdiZDExNzFmMTJjOWRhNjkvTW9zYWljX3JlZHVjZV9BTUJJLTEzNS4xMDgwcC5tcDQKTCIAAAAAAABMIgAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvYXRpZDQ5My9hdGlkNDkzcGwuanBnCpYhAAAAAAAAliEAAAAAAAC2AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzUzODEwMTc3ZTM0MDdkMjcyYTc3MjhkN2NlMGZhMDQ5L01vc2FpY19yZWR1Y2VfQVRJRC00OTMubXA0O2h0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS82ZWFmNjQ2MTdiNjNkYWE4MWQ3ZDBjNmY0Yjg3YWUxZS9Nb3NhaWNfcmVkdWNlX0FUSUQtNDkzLjEwODBwLm1wNArtIAAAAAAAAO0gAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9jam9kNDMxL2Nqb2Q0MzFwbC5qcGcKNyAAAAAAAAA3IAAAAAAAALYAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvYjlkNmZhZjk3OTY0MGM2ZDdjMTYyODQ4OTIzYjZhMzAvTW9zYWljX3JlZHVjZV9DSk9ELTQzMS5tcDQ7aHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzk4MTA4MmUzNTY5MjFiNGI4MGE5NWM3OTA5MDE2OThmL01vc2FpY19yZWR1Y2VfQ0pPRC00MzEuMTA4MHAubXA0CqseAAAAAAAAqx4AAAAAAAA8AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L2lwejM5Ni9pcHozOTZwbC5qcGcKVB4AAAAAAABUHgAAAAAAAFcAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvODdmMmM2MDlhZTUxZTlmMTNiMjExY2ViZjQxMzQ2NGYvTW9zYWljX3JlZHVjZV9JUFotMzk2Lm1wNArUHQAAAAAAANQdAAAAAAAAPAAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9qdXE4MDkvanVxODA5cGwuanBnCiAdAAAAAAAAIB0AAAAAAAC0AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlL2IzMTA0YmY1OGRiZjZkZTE4MzQ3ZTkzMTMzZWY5ODQ5L01vc2FpY19yZWR1Y2VfSlVRLTgwOS5tcDQ7aHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlL2MyZGI0MGU0NzlkYTI1MTcyMmFmNzRiMmRiNmViYjM5L01vc2FpY19yZWR1Y2VfSlVRLTgwOS4xMDgwcC5tcDQKYxwAAAAAAABjHAAAAAAAADwAAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvanVxODEzL2p1cTgxM3BsLmpwZwqvGwAAAAAAAK8bAAAAAAAAtAAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS85MWM0OWJjNmI0NzEwMDlhMmNhYmQ4N2Q4MDliN2NmNy9Nb3NhaWNfcmVkdWNlX0pVUS04MTMubXA0O2h0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS8xMGMzN2U1Y2M2N2RmNWZjZTViMTJiM2Q2ZWNhY2JjZi9Nb3NhaWNfcmVkdWNlX0pVUS04MTMuMTA4MHAubXA0CtsaAAAAAAAA2xoAAAAAAAA8AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L2p1cTg1Ni9qdXE4NTZwbC5qcGcKJxoAAAAAAAAnGgAAAAAAALQAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvNTkwYjk4ODk4MzIwMTU2Njc3M2Q5MzE4MmUzZGI2ZTgvTW9zYWljX3JlZHVjZV9KVVEtODU2Lm1wNDtodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvMjI1ZTlmMTk4NGUyOWE3M2I3MmE3ZmEwY2Y4ZTk1N2YvTW9zYWljX3JlZHVjZV9KVVEtODU2LjEwODBwLm1wNApXGQAAAAAAAFcZAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9tZXlkNTQwL21leWQ1NDBwbC5qcGcK/xgAAAAAAAD/GAAAAAAAAFgAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvNTg1YWY1NTY0NmVjYzUyNWNkZjBjNzNjOTU2NDcyYzgvTW9zYWljX3JlZHVjZV9NRVlELTU0MC5tcDQK6RcAAAAAAADpFwAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvc29uZTMwNC9zb25lMzA0cGwuanBnCosXAAAAAAAAixcAAAAAAABeAAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzc1ZTMwMWQxYThhNmY4MDkyYmQ0ZGY4YjZkMTE0NzQ5L01vc2FpY19yZWR1Y2VfU09ORS0zMDQuMTA4MHAubXA0CrIWAAAAAAAAshYAAAAAAAA+AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L3NvbmUzMDgvc29uZTMwOHBsLmpwZwr8FQAAAAAAAPwVAAAAAAAAtgAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS8xYTVmNTRhYTIzYjBmMmMwNzc3M2RiNDlhMzY5NmMzOS9Nb3NhaWNfcmVkdWNlX1NPTkUtMzA4Lm1wNDtodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvYWE5MWUzZjYyZjA0MGEzZTBhYzY1MGM5OWNhY2JhYmEvTW9zYWljX3JlZHVjZV9TT05FLTMwOC4xMDgwcC5tcDQK+hQAAAAAAAD6FAAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvc29uZTMxMi9zb25lMzEycGwuanBnCkQUAAAAAAAARBQAAAAAAAC2AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzFmNmQxODE2YzI5MjcwNTkxMmVlOWQzYzMzOTQ2MjkwL01vc2FpY19yZWR1Y2VfU09ORS0zMTIubXA0O2h0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS81NmQ3Y2ViMzRhZGIyYWZhOTUwOWM0NTQ3NGU1OWU0Zi9Nb3NhaWNfcmVkdWNlX1NPTkUtMzEyLjEwODBwLm1wNAo+EwAAAAAAAD4TAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9zb25lMzEzL3NvbmUzMTNwbC5qcGcKiBIAAAAAAACIEgAAAAAAALYAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvZDMzZmQ2YTRiYWM5MjY5MzI5MWE4NmJmZmYyYTkzZmIvTW9zYWljX3JlZHVjZV9TT05FLTMxMy5tcDQ7aHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzk0MDM4Y2I4OTIzNWU3ZTNmYTc5ZDE3ZTlkOTI0ZjRmL01vc2FpY19yZWR1Y2VfU09ORS0zMTMuMTA4MHAubXA0Ct8RAAAAAAAA3xEAAAAAAAA+AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L3NvbmUzMTgvc29uZTMxOHBsLmpwZwopEQAAAAAAACkRAAAAAAAAtgAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS8yNDMyNzk0MjRhMGEwMTYxYTE3ODk2ODdiOTA0MjNjNy9Nb3NhaWNfcmVkdWNlX1NPTkUtMzE4Lm1wNDtodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvODczYjI5NmY0MmEzODllNzA0YjU5OTc4MTRhYmQxMTUvTW9zYWljX3JlZHVjZV9TT05FLTMxOC4xMDgwcC5tcDQKiBAAAAAAAACIEAAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvc3NuaTE4Mi9zc25pMTgycGwuanBnCtIPAAAAAAAA0g8AAAAAAAC2AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzM1YWFkZTQ4NjczZWU3YzI0ODhlZDkyMzQ3NGU0MmQzL01vc2FpY19yZWR1Y2VfU1NOSS0xODIubXA0O2h0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS81ZjY2ZGNlZGNiNWRkNzlmOTk2Y2YzYzFkMDcxZjRiNS9Nb3NhaWNfcmVkdWNlX1NTTkktMTgyLjEwODBwLm1wNAosDwAAAAAAACwPAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9jam9kMDU4L2Nqb2QwNThwbC5qcGcKdg4AAAAAAAB2DgAAAAAAALYAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvYjQwZmQ2OGJiNzk1ZjczMWMxZTQxYjM0NGQ4NDY5MjAvTW9zYWljX3JlZHVjZV9DSk9ELTA1OC5ta3Y7aHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzQyOGJhMWQxYTBhZjMwZWZjMDk1MmNlYTIyYWRlMjc1L01vc2FpY19yZWR1Y2VfY2pvZC0wNTguMTA4MHAubXA0CvANAAAAAAAA8A0AAAAAAAA+AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L2Vid2gxMzcvZWJ3aDEzN3BsLmpwZwo6DQAAAAAAADoNAAAAAAAAtgAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS9kMDZkZmIzZWM2MGExNDc0NTliMzZiYjViNGM3NzI5Ni9Nb3NhaWNfcmVkdWNlX0VCV0gtMTM3Lm1rdjtodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvNDY0MDJjZDNjZDI1OWQ3N2M5M2FlZjcyMWQxMzFlMjgvTW9zYWljX3JlZHVjZV9lYndoLTEzNy4xMDgwcC5tcDQKTAwAAAAAAABMDAAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvbWR5ZDgwMi9tZHlkODAycGwuanBnCpYLAAAAAAAAlgsAAAAAAAC2AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlL2FlYjA5NWEzZTQ4NjA3MmVjYmM5ZTljODMzNTg1YzNkL01vc2FpY19yZWR1Y2VfTURZRC04MDIubWt2O2h0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS9jYTFhNzg4NDRlMjM5OTU2YjVmMDljNTNkZjk0ZGJhMy9Nb3NhaWNfcmVkdWNlX21keWQtODAyLjEwODBwLm1wNAoMCwAAAAAAAAwLAAAAAAAAPAAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9taWgwMDgvbWloMDA4cGwuanBnClgKAAAAAAAAWAoAAAAAAAC0AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlL2NiOTNkMWVlZjM1ZTU1NDFjZjk2MjBjNDU1NDFiMGI5L01vc2FpY19yZWR1Y2VfTUlILTAwOC5ta3Y7aHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzk2NDc0YjAzMzY2N2Y2ODFkYjI5OWY4OTU0NmE3N2Y1L01vc2FpY19yZWR1Y2VfbWloLTAwOC4xMDgwcC5tcDQKVwkAAAAAAABXCQAAAAAAAEoAAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvaF8xMjQwbWlsazIxNy9oXzEyNDBtaWxrMjE3cGwuanBnCqEIAAAAAAAAoQgAAAAAAAC2AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzE3ODJmZmJjZTI1NmRjYTMwYTNlNDk0MGY5ZWYxOTFhL01vc2FpY19yZWR1Y2VfTUlMSy0yMTcubWt2O2h0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS8yNTMxYmVlMjIwMjQ4ODRmYzU3ZjE0NjI0MThiZDU2OS9Nb3NhaWNfcmVkdWNlX21pbGstMjE3LjEwODBwLm1wNAoKCAAAAAAAAAoIAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9uaW1hMDA1L25pbWEwMDVwbC5qcGcKVAcAAAAAAABUBwAAAAAAALYAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvMTg4Njc3ODg2ODg0YzBhYzkxYTdlNjQzZWRkYWZjZjUvTW9zYWljX3JlZHVjZV9OSU1BLTAwNS5ta3Y7aHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlL2I3ZjgyN2RmZmFlYjZhNjc2NGQxMTI2MjVhNjFlOGNiL01vc2FpY19yZWR1Y2VfbmltYS0wMDUuMTA4MHAubXA0CpAGAAAAAAAAkAYAAAAAAAA+AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L3BrZ3AwMTMvcGtncDAxM3BsLmpwZwraBQAAAAAAANoFAAAAAAAAtgAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS80MzY0ZDc0ZWQ1MGQwOTk0YmI2ZWE1MDlkODE5ODU4Zi9Nb3NhaWNfcmVkdWNlX1BLR1AtMDEzLm1rdjtodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvNTlmZDMzNDI0NTk0NGJmMzdjZTRkNGM3MTE4OTFkMzIvTW9zYWljX3JlZHVjZV9wa2dwLTAxMy4xMDgwcC5tcDQKBQUAAAAAAAAFBQAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvcHBwZDI0Ni9wcHBkMjQ2cGwuanBnCk8EAAAAAAAATwQAAAAAAAC2AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzRhMTc3M2Q1NjAyZGZkYmViYWRhZjFhZTZlZmI4MTNjL01vc2FpY19yZWR1Y2VfUFBQRC0yNDYubWt2O2h0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS81Yjk5MTcwMWQzNzQ4ZDk0YjkyYzZiYzEzZGI2YWM2OC9Nb3NhaWNfcmVkdWNlX3BwcGQtMjQ2LjEwODBwLm1wNArjAwAAAAAAAOMDAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9wcHBkMjUwL3BwcGQyNTBwbC5qcGcKLQMAAAAAAAAtAwAAAAAAALYAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvN2JhNjEyYjJkNzgwMGJiOWFjYTcxNWNjYzVhM2Y4NjMvTW9zYWljX3JlZHVjZV9QUFBELTI1MC5ta3Y7aHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzhmN2MyNGY2OGRkNTg2ZmFjNzZlODEzMzI4NjA2NTliL01vc2FpY19yZWR1Y2VfcHBwZC0yNTAuMTA4MHAubXA0Cr0CAAAAAAAAvQIAAAAAAAA+AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L3NvbmUzMjcvc29uZTMyN3BsLmpwZwpfAgAAAAAAAF8CAAAAAAAAXgAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS83ZDdkZDA4ODk3YzJhNWM3MzI3YjlkMDYzZTcyMGQwNC9Nb3NhaWNfcmVkdWNlX3NvbmUtMzI3LjEwODBwLm1wNApOAQAAAAAAAE4BAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9zcXRlNTU3L3NxdGU1NTdwbC5qcGcKmAAAAAAAAACYAAAAAAAAALYAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvOTcwNTg2NGIwMjU4ZGVjZDM5MWU3NWM2NGE2MWIyYjEvTW9zYWljX3JlZHVjZV9TUVRFLTU1Ny5ta3Y7aHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlL2RhMGMwZDJlMTZlOGQ1ZWY2MDkxNDY4NjQyOTM3NWI5L01vc2FpY19yZWR1Y2Vfc3F0ZS01NTcuMTA4MHAubXA0Cg",
+							"AQAAAAAAAABNAAAAmAAAAAAAAACdAAAAAAAAAAAAAAAAAPC/8AAAAAAAAAD1AAAAAAAAAAAAAAAAAPC/TgEAAAAAAABTAQAAAAAAAAAAAAAAAPC/XwIAAAAAAABkAgAAAAAAAAAAAAAAAPC/vQIAAAAAAADCAgAAAAAAAAAAAAAAAPC/LQMAAAAAAAAyAwAAAAAAAAAAAAAAAPC/hQMAAAAAAACKAwAAAAAAAAAAAAAAAPC/4wMAAAAAAADoAwAAAAAAAAAAAAAAAPC/TwQAAAAAAABUBAAAAAAAAAAAAAAAAPC/pwQAAAAAAACsBAAAAAAAAAAAAAAAAPC/BQUAAAAAAAAKBQAAAAAAAAAAAAAAAPC/2gUAAAAAAADfBQAAAAAAAAAAAAAAAPC/MgYAAAAAAAA3BgAAAAAAAAAAAAAAAPC/kAYAAAAAAACVBgAAAAAAAAAAAAAAAPC/VAcAAAAAAABZBwAAAAAAAAAAAAAAAPC/rAcAAAAAAACxBwAAAAAAAAAAAAAAAPC/CggAAAAAAAAPCAAAAAAAAAAAAAAAAPC/oQgAAAAAAACmCAAAAAAAAAAAAAAAAPC/+QgAAAAAAAD+CAAAAAAAAAAAAAAAAPC/VwkAAAAAAABcCQAAAAAAAAAAAAAAAPC/WAoAAAAAAABdCgAAAAAAAAAAAAAAAPC/rwoAAAAAAAC0CgAAAAAAAAAAAAAAAPC/DAsAAAAAAAARCwAAAAAAAAAAAAAAAPC/lgsAAAAAAACbCwAAAAAAAAAAAAAAAPC/7gsAAAAAAADzCwAAAAAAAAAAAAAAAPC/TAwAAAAAAABRDAAAAAAAAAAAAAAAAPC/Og0AAAAAAAA/DQAAAAAAAAAAAAAAAPC/kg0AAAAAAACXDQAAAAAAAAAAAAAAAPC/8A0AAAAAAAD1DQAAAAAAAAAAAAAAAPC/dg4AAAAAAAB7DgAAAAAAAAAAAAAAAPC/zg4AAAAAAADTDgAAAAAAAAAAAAAAAPC/LA8AAAAAAAAxDwAAAAAAAAAAAAAAAPC/0g8AAAAAAADXDwAAAAAAAAAAAAAAAPC/KhAAAAAAAAAvEAAAAAAAAAAAAAAAAPC/iBAAAAAAAACNEAAAAAAAAAAAAAAAAPC/KREAAAAAAAAuEQAAAAAAAAAAAAAAAPC/gREAAAAAAACGEQAAAAAAAAAAAAAAAPC/3xEAAAAAAADkEQAAAAAAAAAAAAAAAPC/iBIAAAAAAACNEgAAAAAAAAAAAAAAAPC/4BIAAAAAAADlEgAAAAAAAAAAAAAAAPC/PhMAAAAAAABDEwAAAAAAAAAAAAAAAPC/RBQAAAAAAABJFAAAAAAAAAAAAAAAAPC/nBQAAAAAAAChFAAAAAAAAAAAAAAAAPC/+hQAAAAAAAD/FAAAAAAAAAAAAAAAAPC//BUAAAAAAAABFgAAAAAAAAAAAAAAAPC/VBYAAAAAAABZFgAAAAAAAAAAAAAAAPC/shYAAAAAAAC3FgAAAAAAAAAAAAAAAPC/ixcAAAAAAACQFwAAAAAAAAAAAAAAAPC/6RcAAAAAAADuFwAAAAAAAAAAAAAAAPC//xgAAAAAAAAEGQAAAAAAAAAAAAAAAPC/VxkAAAAAAABcGQAAAAAAAAAAAAAAAPC/JxoAAAAAAAAsGgAAAAAAAAAAAAAAAPC/fhoAAAAAAACDGgAAAAAAAAAAAAAAAPC/2xoAAAAAAADgGgAAAAAAAAAAAAAAAPC/rxsAAAAAAAC0GwAAAAAAAAAAAAAAAPC/BhwAAAAAAAALHAAAAAAAAAAAAAAAAPC/YxwAAAAAAABoHAAAAAAAAAAAAAAAAPC/IB0AAAAAAAAlHQAAAAAAAAAAAAAAAPC/dx0AAAAAAAB8HQAAAAAAAAAAAAAAAPC/1B0AAAAAAADZHQAAAAAAAAAAAAAAAPC/VB4AAAAAAABZHgAAAAAAAAAAAAAAAPC/qx4AAAAAAACwHgAAAAAAAAAAAAAAAPC/NyAAAAAAAAA8IAAAAAAAAAAAAAAAAPC/jyAAAAAAAACUIAAAAAAAAAAAAAAAAPC/7SAAAAAAAADyIAAAAAAAAAAAAAAAAPC/liEAAAAAAACbIQAAAAAAAAAAAAAAAPC/7iEAAAAAAADzIQAAAAAAAAAAAAAAAPC/TCIAAAAAAABRIgAAAAAAAAAAAAAAAPC/5CIAAAAAAADpIgAAAAAAAAAAAAAAAPC/PCMAAAAAAABBIwAAAAAAAAAAAAAAAPC/miMAAAAAAACfIwAAAAAAAAAAAAAAAPC/MiQAAAAAAAA3JAAAAAAAAAAAAAAAAPC/iiQAAAAAAACPJAAAAAAAAAAAAAAAAPC/6CQAAAAAAADtJAAAAAAAAAAAAAAAAPC/MCYAAAAAAAA1JgAAAAAAAAAAAAAAAPC/iCYAAAAAAACNJgAAAAAAAAAAAAAAAPC/5iYAAAAAAADrJgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							52,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAAqAAAAAAAAAGIAAABXaXRoIFRoZSBSdW1vcmVkIEZyZWUgU2V4IEhlYWx0aCBDb21taXR0ZWUgTWVtYmVyLiBJJ2xsIFRyeSBUbyBCZWcgSGVyIE9uIE15IEtuZWVzIE9yeiBIaW5hdGEgUmluYSoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAArAAAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAKQAAAAAAAAApAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							58,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAGcAAAAAAAAAaAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZwAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAGgAAAAAAAAAaQAAAAAAAAAAAAAAaQAAAAAAAABpAAAAAAAAAJYAAAAuLi4gQSBNYXNzaXZlIEFjdG9yJ3MgUGlzdG9uIEF0dGFjay4gQSBCZWF1dGlmdWwgR2lybCBXaXRoIEEgSG9ybnkgRmFjZSBBbmQgQSBGZW1hbGUgRmFjZSBJcyBBc3NhdWx0ZWQgQnkgQSBIdWdlIE9yZ2FzbSBJbiBUaGlzIFNleCBTY2VuZS4gQWlyaSBOYWdpc2FpAAAAAAAAAGoAAAAAAAAAAAAAAGoAAAAAAAAAagAAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							65,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAIoAAAAAAAAAiwAAAAAAAAAAAAAAiwAAAAAAAACLAAAAAAAAAA4AAABOaXNoaWthd2EgUmlvbosAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACMAAAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							68,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAK0AAAAAAAAArgAAAAAAAAAAAAAArgAAAAAAAACuAAAAAAAAAA0AAABUc3VraW1vdG8gUnVprgAAAAAAAACvAAAAAAAAAAAAAACvAAAAAAAAAK8AAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAArQAAAAAAAACtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							73,
+							1,
+							"right_delete",
+							null,
+							"AQAAAMYAAAAAAAAAxgAAAAAAAAAZAAAATG92ZXktZG92ZXkgRG9jdW1lbnRhcnk6IA",
+							"AQAAAAAAAAABAAAAxgAAAAAAAADfAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							78,
+							1,
+							"right_delete",
+							null,
+							"AQAAAMYAAAAAAAAAxgAAAAAAAABHAAAAQSBEYXkgV2hlbiBJIEZvcmdvdCBBYm91dCBXb3JrIEFuZCBXYXMgQ29tcGxldGVseSBBYnNvcmJlZCBJbiBNeSBXb3JrLiA",
+							"AQAAAAAAAAABAAAAxgAAAAAAAAANAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							80,
+							1,
+							"left_delete",
+							null,
+							"AQAAAMsAAAAAAAAAywAAAAAAAAABAAAALQ",
+							"AQAAAAAAAAABAAAAzAAAAAAAAADMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							81,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAMsAAAAAAAAAzAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAywAAAAAAAADLAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							84,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAANoAAAAAAAAA2wAAAAAAAAAAAAAA2wAAAAAAAADbAAAAAAAAAAwAAABNYW8gSGFtYXNha2nbAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA3AAAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAA2gAAAAAAAADaAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							87,
+							1,
+							"right_delete",
+							null,
+							"AQAAAPIAAAAAAAAA8gAAAAAAAAA/AAAARml0Y2ggw5cgTElOREEgU3Ryb25nZXN0IE5pa2thbiBDb2xsYWJvcmF0aW9uIEFnYWluIVJlYWxseSBSb2gg",
+							"AQAAAAAAAAABAAAA8gAAAAAAAAAwAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							90,
+							1,
+							"left_delete",
+							null,
+							"AQAAAPYAAAAAAAAA9gAAAAAAAAABAAAALQ",
+							"AQAAAAAAAAABAAAA9wAAAAAAAAD3AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							91,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAPYAAAAAAAAA9wAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA9gAAAAAAAAD2AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							94,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAABIBAAAAAAAAEwEAAAAAAAAAAAAAEwEAAAAAAAATAQAAAAAAABEAAAAtIENoYW95YW5nIE1penVubxMBAAAAAAAAFAEAAAAAAAAAAAAAFAEAAAAAAAAUAQAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAEgEAAAAAAAASAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							97,
+							1,
+							"left_delete",
+							null,
+							"AQAAADkBAAAAAAAAOQEAAAAAAAABAAAALQ",
+							"AQAAAAAAAAABAAAAOgEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							98,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAADkBAAAAAAAAOgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOQEAAAAAAAA5AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							101,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAEMBAAAAAAAARAEAAAAAAAAAAAAARAEAAAAAAABEAQAAAAAAACkAAABGdWxseSBDbG90aGVkIDUtcGxheSBTZXNzaW9uIFRzdWJha2kgUmlrYUQBAAAAAAAARQEAAAAAAAAAAAAARQEAAAAAAABFAQAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAQwEAAAAAAABDAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							104,
+							1,
+							"right_delete",
+							null,
+							"AQAAAFoBAAAAAAAAWgEAAAAAAABNAAAASSBNYWRlIFRoZSBTY2hvb2wncyBUb3AgSuKXjywgV2hvIExvb2tlZCBEb3duIE9uIEhlciBUZWFjaGVycywgVW5kZXJzdGFuZCBCeSA",
+							"AQAAAAAAAAABAAAAWgEAAAAAAAClAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							107,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAIYBAAAAAAAAhwEAAAAAAAAAAAAAhwEAAAAAAACHAQAAAAAAACYAAABBbmQgSW1wcmVnbmF0aW5nIEhlci4gSWNoaWthIE1hdHN1bW90b4cBAAAAAAAAiAEAAAAAAAAAAAAAiAEAAAAAAACIAQAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAhgEAAAAAAACGAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							110,
+							1,
+							"right_delete",
+							null,
+							"AQAAAKsBAAAAAAAAqwEAAAAAAAAUAAAAS2Fubm8gU25vdyBPdXQgVGl0cyA",
+							"AQAAAAAAAAABAAAAqwEAAAAAAAC/AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							113,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAMUBAAAAAAAAxgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxQEAAAAAAADFAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							114,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"AwAAAMYBAAAAAAAAxwEAAAAAAAAAAAAAxwEAAAAAAADIAQAAAAAAAAAAAADIAQAAAAAAAMgBAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAxgEAAAAAAADGAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							117,
+							1,
+							"right_delete",
+							null,
+							"AQAAAN4BAAAAAAAA3gEAAAAAAABVAAAAU2xlbmRlciwgQnVzdHkgU2l0ZSBTdXBlcnZpc29yIElzIEdpdmVuIEEgU2VyaW91cyBQaXN0b24gQnkgQSBHcm91cCBPZiBNdXNjdWxhciBNZW4hIA",
+							"AQAAAAAAAAABAAAA3gEAAAAAAAAzAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							120,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAAgCAAAAAAAACQIAAAAAAAAAAAAACQIAAAAAAAAJAgAAAAAAABwAAABXaXRob3V0IEEgQnJlYWsgLSBIaWJpa2kgUmVuCQIAAAAAAAAKAgAAAAAAAAAAAAAKAgAAAAAAAAoCAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAACAIAAAAAAAAIAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							125,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAADcCAAAAAAAAOAIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANwIAAAAAAAA3AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							126,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAADgCAAAAAAAAOQIAAAAAAAAAAAAAOQIAAAAAAAA5AgAAAAAAABgAAAAhR29kIEJsb3cgMiBNaXNha2kgSG9uZGE5AgAAAAAAADoCAAAAAAAAAAAAADoCAAAAAAAAOgIAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAOAIAAAAAAAA4AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							129,
+							1,
+							"right_delete",
+							null,
+							"AQAAAFACAAAAAAAAUAIAAAAAAAAhAAAASGFzaGltb3RvIFRoZXJlIElzIEEgQmlnIEdhaWljaGkg",
+							"AQAAAAAAAAABAAAAUAIAAAAAAABxAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							132,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAIECAAAAAAAAggIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAgQIAAAAAAACBAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							133,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"AwAAAIICAAAAAAAAgwIAAAAAAAAAAAAAgwIAAAAAAACEAgAAAAAAAAAAAACEAgAAAAAAAIQCAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAggIAAAAAAACCAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							136,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAMoCAAAAAAAAywIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAygIAAAAAAADKAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							137,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAMsCAAAAAAAAzAIAAAAAAAAAAAAAzAIAAAAAAADMAgAAAAAAAB4AAAAsIEkgQ291bGRuJ3QgUmVzaXN0IFRoaXMgQm9keS7MAgAAAAAAAM0CAAAAAAAAAAAAAM0CAAAAAAAAzQIAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAywIAAAAAAADLAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							140,
+							1,
+							"right_delete",
+							null,
+							"AQAAAOECAAAAAAAA4QIAAAAAAAA1AAAAZXZpbCdzIFNhbmN0dWFyeTogNSBTaXR1YXRpb25zIE9mIEZldGlzaGlzbSBXaXRoIFRoZSA",
+							"AQAAAAAAAAABAAAA4QIAAAAAAAAWAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							143,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAAYDAAAAAAAABwMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABgMAAAAAAAAGAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							144,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"AwAAAAcDAAAAAAAACAMAAAAAAAAAAAAACAMAAAAAAAAJAwAAAAAAAAAAAAAJAwAAAAAAAAkDAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAABwMAAAAAAAAHAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							147,
+							1,
+							"right_delete",
+							null,
+							"AQAAABgDAAAAAAAAGAMAAAAAAABOAAAASSdsbCBEbyBFdmVyeXRoaW5nIFlvdXIgRmxhdC1jaGVzdGVkIEdpcmxmcmllbmQgQ2FuJ3QgRG8gV2l0aCBUaGVzZSBCb29icy4gTXkg",
+							"AQAAAAAAAAABAAAAGAMAAAAAAABmAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							150,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAEIDAAAAAAAAQwMAAAAAAAAAAAAAQwMAAAAAAABDAwAAAAAAADoAAABUbyBUaGUgVGVtcHRhdGlvbnMgT2YgQSBCdXN0eSBGZW1hbGUgVGVhY2hlciAtIEtveW9pIEtvbmFuQwMAAAAAAABEAwAAAAAAAAAAAABEAwAAAAAAAEQDAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAQgMAAAAAAABCAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							156,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAIMDAAAAAAAAhAMAAAAAAAAAAAAAhAMAAAAAAACEAwAAAAAAAIUAAABBdCBIaWdoIFNwZWVkIFBpc3RvbiBXaXRoIEJpZyBDb2NrcyBBbmQgQXBocm9kaXNpYWNzIFVudGlsIEhlciBMb3dlciBCb2R5IEFuZCBCZWF1dGlmdWwgTG9uZyBMZWdzIFJlYWNoIEEgVHJlbWJsaW5nIE9yZ2FzbSBLYWVkZSBGdXVhhAMAAAAAAACFAwAAAAAAAAAAAACFAwAAAAAAAIUDAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAgwMAAAAAAACDAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							162,
+							1,
+							"right_delete",
+							null,
+							"AQAAAJkDAAAAAAAAmQMAAAAAAAA2AAAAMTM4IEludGVuc2UgT3JnYXNtcyEgNTU5MCBDb252dWxzaW9ucyEgMjAwMGNjIE9mIEN1bSEg",
+							"AQAAAAAAAAABAAAAmQMAAAAAAADPAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							165,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAALcDAAAAAAAAuAMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAtwMAAAAAAAC3AwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							166,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAALgDAAAAAAAAuQMAAAAAAAAAAAAAuQMAAAAAAAC5AwAAAAAAADEAAAAuIEhlciBGaXJzdCBCaWcgQ29udnVsc2lvbiBTcGVjaWFsLiBIYXJ1a2EgS3VyYWtpuQMAAAAAAAC6AwAAAAAAAAAAAAC6AwAAAAAAALoDAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAuAMAAAAAAAC4AwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							171,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAAkEAAAAAAAACgQAAAAAAAAAAAAACgQAAAAAAAAKBAAAAAAAAIgAAABXaXRob3V0IFByb2R1Y3Rpb24uSSBIZWxkIFRoZSBXZWFrbmVzcyBBbmQgRm9yY2VkIEJvdGggUHJvZHVjdGlvbiBBbmQgVmFnaW5hbCBDdW0gU2hvdCFFbWkgRnVrYWRhIFdobyBNYWRlIEEgU2V4IFNsYXZlIE91dHNpZGUgVGhlIFN0b3JlCgQAAAAAAAALBAAAAAAAAAAAAAALBAAAAAAAAAsEAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAACQQAAAAAAAAJBAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							177,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAEEEAAAAAAAAQgQAAAAAAAAAAAAAQgQAAAAAAABCBAAAAAAAAFwAAABXaXRoIFNlbWVuLiBBIEdyb3VwIE9mIFBlcnZlcnRzIFN1cnJvdW5kcyBBIERpY2sgT24gQSBDcm93ZGVkIFRyYWluIEluIE1pZHN1bW1lci4gUnlvIEFpeXVtaUIEAAAAAAAAQwQAAAAAAAAAAAAAQwQAAAAAAABDBAAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAQQQAAAAAAABBBAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							183,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAHcEAAAAAAAAeAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdwQAAAAAAAB3BAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							184,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAHgEAAAAAAAAeQQAAAAAAAAAAAAAeQQAAAAAAAB5BAAAAAAAAGUAAAAuIOOAikxhcmdlLXNjYWxlIEV4Y2x1c2l2ZeOAiyBCZWF1dGlmdWwgQm9keSBYIERpdmluZSBXYWlzdCBleHBvc2VkIEZvciBUaGUgRmlyc3QgVGltZSEhIE5hbWkgT2tpbWl5YXkEAAAAAAAAegQAAAAAAAAAAAAAegQAAAAAAAB6BAAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAeAQAAAAAAAB4BAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							190,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAALoEAAAAAAAAuwQAAAAAAAAAAAAAuwQAAAAAAAC7BAAAAAAAADUAAAAtIE9ubHkgT25lIFJvb20gSXMgQXZhaWxhYmxlIEF0IFRoZSBJbm4gSSBIYWQgQm9va2VkLrsEAAAAAAAAvAQAAAAAAAAAAAAAvAQAAAAAAAC8BAAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAugQAAAAAAAC6BAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							193,
+							1,
+							"right_delete",
+							null,
+							"AQAAANwEAAAAAAAA3AQAAAAAAAAMAAAAVG8tZG8gTWFyaWUg",
+							"AQAAAAAAAAABAAAA3AQAAAAAAADoBAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							196,
+							1,
+							"insert",
+							{
+								"characters": " -"
+							},
+							"AgAAAP4EAAAAAAAA/wQAAAAAAAAAAAAA/wQAAAAAAAAABQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA/gQAAAAAAAD+BAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							197,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAAAFAAAAAAAAAQUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							198,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"AwAAAAEFAAAAAAAAAgUAAAAAAAAAAAAAAgUAAAAAAAADBQAAAAAAAAAAAAADBQAAAAAAAAMFAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAAQUAAAAAAAABBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							201,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAE0FAAAAAAAATgUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATQUAAAAAAABNBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							202,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAE4FAAAAAAAATwUAAAAAAAAAAAAATwUAAAAAAABPBQAAAAAAAAwBAAAuIEFmdGVyIEEgRmFpbGVkIE1hcnJpYWdlLCBTaGUgUmV0cmVhdGVkIFRvIEhlciBQYXJlbnRzJyBIb3VzZSBBbmQgSGVyIFNleHVhbCBEZXNpcmVzIE9ubHkgQnVpbHQgVXAsIFR1cm5pbmcgSGVyIEludG8gQSBQZXJ2ZXJ0ZWQgT3Rha3UuIEknbSBOb3cgSGVyIENvbnZlbmllbnQgTWVhdCBTdGljayBBbmQgQ3JlYW1waWUgVG95LiBJIEVqYWN1bGF0ZWQgMTAgVGltZXMgKHN3ZWF0KSBBdCBNeSBQYXJlbnRzJyBIb3VzZSBXaGVuIEkgV2VudCBCYWNrIEhvbWUuIEpVTElBTwUAAAAAAABQBQAAAAAAAAAAAABQBQAAAAAAAFAFAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAATgUAAAAAAABOBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							206,
+							1,
+							"left_delete",
+							null,
+							"AQAAAD8FAAAAAAAAPwUAAAAAAAABAAAALQ",
+							"AQAAAAAAAAABAAAAQAUAAAAAAABABQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							207,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAD8FAAAAAAAAQAUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPwUAAAAAAAA/BQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							210,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAKAFAAAAAAAAoQUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAoAUAAAAAAACgBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							211,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAKEFAAAAAAAAogUAAAAAAAAAAAAAogUAAAAAAACiBQAAAAAAAAEAAAAuogUAAAAAAACjBQAAAAAAAAAAAACjBQAAAAAAAKMFAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAoQUAAAAAAAChBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							215,
+							1,
+							"right_delete",
+							null,
+							"AQAAAF8FAAAAAAAAXwUAAAAAAAAMAAAATXkgV2lmZSBXYXMg",
+							"AQAAAAAAAAABAAAAawUAAAAAAABfBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							218,
+							1,
+							"right_delete",
+							null,
+							"AQAAAM4FAAAAAAAAzgUAAAAAAAAOAAAATG92ZSBNYXJyaWFnZSA",
+							"AQAAAAAAAAABAAAAzgUAAAAAAADcBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							221,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAOwFAAAAAAAA7QUAAAAAAAAAAAAA7QUAAAAAAADtBQAAAAAAAAoAAABZdWkgTmFnYXNl7QUAAAAAAADuBQAAAAAAAAAAAADuBQAAAAAAAO4FAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAA7AUAAAAAAADsBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							224,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAABsGAAAAAAAAHAYAAAAAAAAAAAAAHAYAAAAAAAAcBgAAAAAAACIAAABUbyBBIEJyb3RoZXIgQW5kIFNpc3RlciBZdWkgTmFnYXNlHAYAAAAAAAAdBgAAAAAAAAAAAAAdBgAAAAAAAB0GAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAGwYAAAAAAAAbBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							227,
+							1,
+							"insert",
+							{
+								"characters": "CA"
+							},
+							"AwAAADEGAAAAAAAAMgYAAAAAAAAAAAAAMgYAAAAAAAAyBgAAAAAAACoAAABXaGVuIFNoZSBHZXRzIERydW5rLCBUaGUgRmxpZ2h0IEF0dGVuZGFudCAyBgAAAAAAADMGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMQYAAAAAAABbBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							228,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAADMGAAAAAAAANAYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMwYAAAAAAAAzBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							231,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAEIGAAAAAAAAQwYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQgYAAAAAAABCBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							232,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAEMGAAAAAAAARAYAAAAAAAAAAAAARAYAAAAAAABEBgAAAAAAAKEAAAAuIFNoZSBIYXMgQmVhdXRpZnVsIExlZ3MgQW5kIEJsYWNrIFRpZ2h0cywgQW5kIFRoZXkgTG9jayBBbmQgS2lzcyBJbiBBIEZyZW5jaCBLaXNzaW5nIFBvc2l0aW9uIE9uIEEgQnVzaW5lc3MgVHJpcCBBZmZhaXIgRmxpZ2h0LiBIaW5ha28gTW9yaSBBbmQgSGltYXJpIEtpbm9zaGl0YUQGAAAAAAAARQYAAAAAAAAAAAAARQYAAAAAAABFBgAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAQwYAAAAAAABDBgAAAAAAAAAAAAAAAPC/"
+						]
 					]
 				}
 			],
@@ -562,6 +1484,12 @@
 			"file_history":
 			[
 				"/home/rodney/python/rip/holding.txt",
+				"/home/rodney/python/rip/updates.txt",
+				"/home/rodney/.config/zsh/.zshrc",
+				"/home/rodney/dotfiles/zsh/.config/zsh/aliases.zsh",
+				"/home/rodney/python/cueflac/README.1st",
+				"/home/rodney/python/cueflac_/README.1st",
+				"/home/rodney/python/cueflac/README.md",
 				"/home/rodney/Music/done/00xfered/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
 				"/media/rodney/astor/music/lossless/cdimages/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
 				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/1970-This Is Love/Archies, The - This Is Love.cue",
@@ -682,13 +1610,7 @@
 				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/template",
 				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/filelist",
 				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue",
-				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template",
-				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/filelist",
-				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/Lou Reed - A Night Like This (Live San Francisco '78).cue",
-				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/template",
-				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/filelist",
-				"/home/rodney/Downloads/complete/Louis-Armstrong-2024-Louis-In-London-Live-At-The-BBC/Louis Armstrong - Louis In London Live At The BBC.cue",
-				"/home/rodney/Downloads/complete/Lindsey-Stirling-2024-Duali/template"
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template"
 			],
 			"find":
 			{
@@ -706,7 +1628,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"https://"
+					"https"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -730,33 +1652,32 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/rodney/python/cueflac_/README.1st",
+							"file": "/home/rodney/python/rip/holding.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1268,
+								"buffer_size": 350122,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										176,
-										176
+										244,
+										244
 									]
 								],
 								"settings":
 								{
 									"git_gutter_is_enabled": false,
-									"lsp_uri": "file:///home/rodney/python/cueflac_/README.1st",
+									"lsp_uri": "file:///home/rodney/python/rip/holding.txt",
 									"show_definitions": true,
 									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"word_wrap": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 63.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -822,7 +1743,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,45,58,1181,676,1920,1080,1",
+			"position": "0,0,0,0,0,123,89,1224,707,1920,1080,1",
 			"project": "",
 			"replace":
 			{
@@ -869,7 +1790,2980 @@
 			"template_settings":
 			{
 			},
+			"window_id": 52,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "docker Tutorial in 1 hr\n\tmCoding\n\nruns container - isolated group of programs\n\t\t\t\tapp runtime\n\t\t\t\tdependencies\n\t\t\t\tfile system\nuses existing kernels, hardware and OS\n\ndocker runs under root\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					"settings":
+					{
+						"buffer_size": 209,
+						"line_ending": "Unix",
+						"name": "docker Tutorial in 1 hr"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "docker"
+							},
+							"BgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							2,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							3,
+							1,
+							"reindent",
+							null,
+							"AQAAAAcAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABwAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": "mCoding"
+							},
+							"BwAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": " Tutor"
+							},
+							"BgAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAgFtA"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "ial"
+							},
+							"AwAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": " in"
+							},
+							"AwAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"insert",
+							{
+								"characters": " 1"
+							},
+							"AgAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": " hr"
+							},
+							"AwAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"BQAAACAAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACMAAAAAAAAAAAAAACMAAAAAAAAAJAAAAAAAAAAAAAAAIQAAAAAAAAAhAAAAAAAAAAEAAAAJ",
+							"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAwGxA"
+						],
+						[
+							13,
+							1,
+							"left_delete",
+							null,
+							"AQAAACIAAAAAAAAAIgAAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": "container"
+							},
+							"CQAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": " -"
+							},
+							"AgAAACsAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAtAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKwAAAAAAAAArAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": " isolated"
+							},
+							"CQAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAMQAAAAAAAAAAAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADMAAAAAAAAAAAAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": " group"
+							},
+							"BgAAADYAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAADkAAAAAAAAAOgAAAAAAAAAAAAAAOgAAAAAAAAA7AAAAAAAAAAAAAAA7AAAAAAAAADwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANgAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": " of"
+							},
+							"AwAAADwAAAAAAAAAPQAAAAAAAAAAAAAAPQAAAAAAAAA+AAAAAAAAAAAAAAA+AAAAAAAAAD8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPAAAAAAAAAA8AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAD8AAAAAAAAAQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPwAAAAAAAAA/AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": "programs"
+							},
+							"CAAAAEAAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAABCAAAAAAAAAAAAAABCAAAAAAAAAEMAAAAAAAAAAAAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABFAAAAAAAAAAAAAABFAAAAAAAAAEYAAAAAAAAAAAAAAEYAAAAAAAAARwAAAAAAAAAAAAAARwAAAAAAAABIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAEgAAAAAAAAASQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASAAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							1,
+							"reindent",
+							null,
+							"AQAAAEkAAAAAAAAASgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"insert",
+							{
+								"characters": "\t\t\tapp"
+							},
+							"BgAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAABPAAAAAAAAAFAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							1,
+							"insert",
+							{
+								"characters": " runtime"
+							},
+							"CAAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAABSAAAAAAAAAFMAAAAAAAAAAAAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAABVAAAAAAAAAFYAAAAAAAAAAAAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVwAAAAAAAABYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": "\n\t"
+							},
+							"AwAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABdAAAAAAAAAAAAAABdAAAAAAAAAF4AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"left_delete",
+							null,
+							"AQAAAF0AAAAAAAAAXQAAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAXgAAAAAAAABeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": "dependen"
+							},
+							"CAAAAF0AAAAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAABfAAAAAAAAAAAAAABfAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAYQAAAAAAAAAAAAAAYQAAAAAAAABiAAAAAAAAAAAAAABiAAAAAAAAAGMAAAAAAAAAAAAAAGMAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABlAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXQAAAAAAAABdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": "cies"
+							},
+							"BAAAAGUAAAAAAAAAZgAAAAAAAAAAAAAAZgAAAAAAAABnAAAAAAAAAAAAAABnAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAaQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZQAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": "\n\t"
+							},
+							"AwAAAGkAAAAAAAAAagAAAAAAAAAAAAAAagAAAAAAAABuAAAAAAAAAAAAAABuAAAAAAAAAG8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaQAAAAAAAABpAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							30,
+							1,
+							"left_delete",
+							null,
+							"AQAAAG4AAAAAAAAAbgAAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAbwAAAAAAAABvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": "file"
+							},
+							"BAAAAG4AAAAAAAAAbwAAAAAAAAAAAAAAbwAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHEAAAAAAAAAAAAAAHEAAAAAAAAAcgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbgAAAAAAAABuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": " system"
+							},
+							"BwAAAHIAAAAAAAAAcwAAAAAAAAAAAAAAcwAAAAAAAAB0AAAAAAAAAAAAAAB0AAAAAAAAAHUAAAAAAAAAAAAAAHUAAAAAAAAAdgAAAAAAAAAAAAAAdgAAAAAAAAB3AAAAAAAAAAAAAAB3AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAeQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcgAAAAAAAAByAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAHkAAAAAAAAAegAAAAAAAAAAAAAAegAAAAAAAAB+AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAeQAAAAAAAAB5AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							4,
+							"left_delete",
+							null,
+							"BAAAAH0AAAAAAAAAfQAAAAAAAAABAAAACXwAAAAAAAAAfAAAAAAAAAABAAAACXsAAAAAAAAAewAAAAAAAAABAAAACXoAAAAAAAAAegAAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAfgAAAAAAAAB+AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAHoAAAAAAAAAewAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAegAAAAAAAAB6AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": "runs"
+							},
+							"BAAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							38,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAACYAAAAAAAAAJwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"insert",
+							{
+								"characters": "uses"
+							},
+							"BAAAAH8AAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACBAAAAAAAAAAAAAACBAAAAAAAAAIIAAAAAAAAAAAAAAIIAAAAAAAAAgwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAfwAAAAAAAAB/AAAAAAAAAAAAAAAAAElA"
+						],
+						[
+							41,
+							1,
+							"insert",
+							{
+								"characters": " exiting"
+							},
+							"CAAAAIMAAAAAAAAAhAAAAAAAAAAAAAAAhAAAAAAAAACFAAAAAAAAAAAAAACFAAAAAAAAAIYAAAAAAAAAAAAAAIYAAAAAAAAAhwAAAAAAAAAAAAAAhwAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIkAAAAAAAAAAAAAAIkAAAAAAAAAigAAAAAAAAAAAAAAigAAAAAAAACLAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAgwAAAAAAAACDAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAIsAAAAAAAAAjAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiwAAAAAAAACLAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							6,
+							"left_delete",
+							null,
+							"BgAAAIsAAAAAAAAAiwAAAAAAAAABAAAAIIoAAAAAAAAAigAAAAAAAAABAAAAZ4kAAAAAAAAAiQAAAAAAAAABAAAAbogAAAAAAAAAiAAAAAAAAAABAAAAaYcAAAAAAAAAhwAAAAAAAAABAAAAdIYAAAAAAAAAhgAAAAAAAAABAAAAaQ",
+							"AQAAAAAAAAABAAAAjAAAAAAAAACMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							44,
+							1,
+							"insert",
+							{
+								"characters": "isting"
+							},
+							"BgAAAIYAAAAAAAAAhwAAAAAAAAAAAAAAhwAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIkAAAAAAAAAAAAAAIkAAAAAAAAAigAAAAAAAAAAAAAAigAAAAAAAACLAAAAAAAAAAAAAACLAAAAAAAAAIwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhgAAAAAAAACGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"insert",
+							{
+								"characters": " kernels,"
+							},
+							"CQAAAIwAAAAAAAAAjQAAAAAAAAAAAAAAjQAAAAAAAACOAAAAAAAAAAAAAACOAAAAAAAAAI8AAAAAAAAAAAAAAI8AAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAACRAAAAAAAAAJIAAAAAAAAAAAAAAJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjAAAAAAAAACMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							46,
+							1,
+							"insert",
+							{
+								"characters": " hardware"
+							},
+							"CQAAAJUAAAAAAAAAlgAAAAAAAAAAAAAAlgAAAAAAAACXAAAAAAAAAAAAAACXAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAACdAAAAAAAAAJ4AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlQAAAAAAAACVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"insert",
+							{
+								"characters": " and"
+							},
+							"BAAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAAnwAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAAKEAAAAAAAAAAAAAAKEAAAAAAAAAogAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAngAAAAAAAACeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							48,
+							1,
+							"insert",
+							{
+								"characters": " OS"
+							},
+							"AwAAAKIAAAAAAAAAowAAAAAAAAAAAAAAowAAAAAAAACkAAAAAAAAAAAAAACkAAAAAAAAAKUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAogAAAAAAAACiAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							49,
+							1,
+							"left_delete",
+							null,
+							"AQAAAKQAAAAAAAAApAAAAAAAAAABAAAAUw",
+							"AQAAAAAAAAABAAAApQAAAAAAAAClAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							50,
+							1,
+							"insert",
+							{
+								"characters": "S"
+							},
+							"AQAAAKQAAAAAAAAApQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApAAAAAAAAACkAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							51,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAAKUAAAAAAAAApgAAAAAAAAAAAAAApgAAAAAAAACnAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApQAAAAAAAAClAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							56,
+							1,
+							"insert",
+							{
+								"characters": "\n\ndocker"
+							},
+							"CAAAAKUAAAAAAAAApgAAAAAAAAAAAAAApgAAAAAAAACnAAAAAAAAAAAAAACnAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAAqQAAAAAAAAAAAAAAqQAAAAAAAACqAAAAAAAAAAAAAACqAAAAAAAAAKsAAAAAAAAAAAAAAKsAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACtAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApQAAAAAAAAClAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							57,
+							1,
+							"insert",
+							{
+								"characters": " u"
+							},
+							"AgAAAK0AAAAAAAAArgAAAAAAAAAAAAAArgAAAAAAAACvAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAArQAAAAAAAACtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							58,
+							1,
+							"left_delete",
+							null,
+							"AQAAAK4AAAAAAAAArgAAAAAAAAABAAAAdQ",
+							"AQAAAAAAAAABAAAArwAAAAAAAACvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"insert",
+							{
+								"characters": "runs"
+							},
+							"BAAAAK4AAAAAAAAArwAAAAAAAAAAAAAArwAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALEAAAAAAAAAAAAAALEAAAAAAAAAsgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAArgAAAAAAAACuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							60,
+							1,
+							"insert",
+							{
+								"characters": " under"
+							},
+							"BgAAALIAAAAAAAAAswAAAAAAAAAAAAAAswAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALUAAAAAAAAAAAAAALUAAAAAAAAAtgAAAAAAAAAAAAAAtgAAAAAAAAC3AAAAAAAAAAAAAAC3AAAAAAAAALgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsgAAAAAAAACyAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							61,
+							1,
+							"insert",
+							{
+								"characters": " root"
+							},
+							"BQAAALgAAAAAAAAAuQAAAAAAAAAAAAAAuQAAAAAAAAC6AAAAAAAAAAAAAAC6AAAAAAAAALsAAAAAAAAAAAAAALsAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAAC9AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							62,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAL0AAAAAAAAAvgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvQAAAAAAAAC9AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							80,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+							},
+							"GQAAAMEAAAAAAAAAwgAAAAAAAAAAAAAAwgAAAAAAAADDAAAAAAAAAAAAAADDAAAAAAAAAMQAAAAAAAAAAAAAAMQAAAAAAAAAxQAAAAAAAAAAAAAAxQAAAAAAAADGAAAAAAAAAAAAAADGAAAAAAAAAMcAAAAAAAAAAAAAAMcAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADJAAAAAAAAAAAAAADJAAAAAAAAAMoAAAAAAAAAAAAAAMoAAAAAAAAAywAAAAAAAAAAAAAAywAAAAAAAADMAAAAAAAAAAAAAADMAAAAAAAAAM0AAAAAAAAAAAAAAM0AAAAAAAAAzgAAAAAAAAAAAAAAzgAAAAAAAADPAAAAAAAAAAAAAADPAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA0QAAAAAAAAAAAAAA0QAAAAAAAADSAAAAAAAAAAAAAADSAAAAAAAAANMAAAAAAAAAAAAAANMAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADVAAAAAAAAAAAAAADVAAAAAAAAANYAAAAAAAAAAAAAANYAAAAAAAAA1wAAAAAAAAAAAAAA1wAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANkAAAAAAAAAAAAAANkAAAAAAAAA2gAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							83,
+							1,
+							"insert",
+							{
+								"characters": "----Seina"
+							},
+							"CQAAAL8AAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADBAAAAAAAAAAAAAADBAAAAAAAAAMIAAAAAAAAAAAAAAMIAAAAAAAAAwwAAAAAAAAAAAAAAwwAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMUAAAAAAAAAAAAAAMUAAAAAAAAAxgAAAAAAAAAAAAAAxgAAAAAAAADHAAAAAAAAAAAAAADHAAAAAAAAAMgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvwAAAAAAAAC/AAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							84,
+							1,
+							"insert",
+							{
+								"characters": " Aria"
+							},
+							"BQAAAMgAAAAAAAAAyQAAAAAAAAAAAAAAyQAAAAAAAADKAAAAAAAAAAAAAADKAAAAAAAAAMsAAAAAAAAAAAAAAMsAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADNAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAyAAAAAAAAADIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							85,
+							1,
+							"left_delete",
+							null,
+							"AQAAAMwAAAAAAAAAzAAAAAAAAAABAAAAYQ",
+							"AQAAAAAAAAABAAAAzQAAAAAAAADNAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							86,
+							1,
+							"insert",
+							{
+								"characters": "sa"
+							},
+							"AgAAAMwAAAAAAAAAzQAAAAAAAAAAAAAAzQAAAAAAAADOAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzAAAAAAAAADMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							87,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAM4AAAAAAAAAzwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzgAAAAAAAADOAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							88,
+							1,
+							"",
+							null,
+							"AQAAAM8AAAAAAAAACQIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzwAAAAAAAADPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							89,
+							1,
+							"",
+							null,
+							"AQAAAAoCAAAAAAAAeQMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACQIAAAAAAAAJAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							90,
+							1,
+							"",
+							null,
+							"AQAAAHoDAAAAAAAAvAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAeQMAAAAAAAB5AwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							91,
+							1,
+							"",
+							null,
+							"AQAAAL0EAAAAAAAAPQYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvAQAAAAAAAC8BAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							92,
+							1,
+							"",
+							null,
+							"AQAAAD4GAAAAAAAA6gcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPQYAAAAAAAA9BgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							93,
+							1,
+							"",
+							null,
+							"AQAAAOsHAAAAAAAADAkAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA6gcAAAAAAADqBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							94,
+							1,
+							"",
+							null,
+							"AQAAAA0JAAAAAAAAXQoAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADAkAAAAAAAAMCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							95,
+							1,
+							"",
+							null,
+							"AQAAAF4KAAAAAAAAcAsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXQoAAAAAAABdCgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							96,
+							1,
+							"",
+							null,
+							"AQAAAHELAAAAAAAAmgwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcAsAAAAAAABwCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							112,
+							1,
+							"run_macro_file",
+							{
+								"file": "res://Packages/Default/Delete Line.sublime-macro"
+							},
+							"EgAAAF0MAAAAAAAAXQwAAAAAAAA+AAAAaHR0cHM6Ly9waWNzLmRtbS5jby5qcC9tb25vL21vdmllL2FkdWx0L2Nhd2QzNjMvY2F3ZDM2M3BsLmpwZwoFDAAAAAAAAAUMAAAAAAAAWAAAAGh0dHBzOi8vcmFwaWRnYXRvci5uZXQvZmlsZS82ODExYmU2MGJhM2ExZTE4ZjBjMjAyZmU4MGM0YTk4Yy9Nb3NhaWNfcmVkdWNlX0NBV0QtMzYzLm1rdgozCwAAAAAAADMLAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9wcHBlMDI5L3BwcGUwMjlwbC5qcGcKuwoAAAAAAAC7CgAAAAAAAHgAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvM2FiZGZjZjFiYThkMThlNDdiODQ2ZjM5NDAxZTI2OWEvTU9TQUlDX1JFRFVDRV9QUFBFLTAyOS5tcDQuaHRtbF1NT1NBSUNfUkVEVUNFX1BQUEUtMDI5Lm1wNAogCgAAAAAAACAKAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9tdnNkNTA0L212c2Q1MDRwbC5qcGcKqAkAAAAAAACoCQAAAAAAAHgAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvM2RiMDQyZDhjOTNlMDEzOTRhODFlY2IxNzdiYmY3M2QvTW9zYWljX3JlZHVjZV9NVlNELTUwNC5ta3YuaHRtbF1Nb3NhaWNfcmVkdWNlX01WU0QtNTA0Lm1rdgrPCAAAAAAAAM8IAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9kYXNkOTk0L2Rhc2Q5OTRwbC5qcGcKVwgAAAAAAABXCAAAAAAAAHgAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvMDNhNjY5ZjJjYWY0Yzg4NTdhYjBlNjhjMzAwN2Y2NzcvTU9TQUlDX1JFRFVDRV9EQVNELTk5NC5tcDQuaHRtbF1NT1NBSUNfUkVEVUNFX0RBU0QtOTk0Lm1wNAqtBwAAAAAAAK0HAAAAAAAAPgAAAGh0dHBzOi8vcGljcy5kbW0uY28uanAvbW9uby9tb3ZpZS9hZHVsdC9wcHBlMDM4L3BwcGUwMzhwbC5qcGcKJQcAAAAAAAAlBwAAAAAAAIgAAABodHRwczovL3JhcGlkZ2F0b3IubmV0L2ZpbGUvOWJlODU3OWM4MDE1NzJiMmQyNWYxMjY1N2FlNjNlMTMvTW9zYWljX3JlZHVjZV92ZXJzaW9uX3BwcGUtMDM4Lm1wNC5odG1sXU1vc2FpY19yZWR1Y2VfdmVyc2lvbl9wcHBlLTAzOC5tcDQKAAYAAAAAAAAABgAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvbWlhYTY1NS9taWFhNjU1cGwuanBnCogFAAAAAAAAiAUAAAAAAAB4AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzNmYmVhNDIzNDBiOTdhYTgzYmM0ZjkyY2IzYTMyYzA5L01PU0FJQ19SRURVQ0VfTUlBQS02NTUubWt2Lmh0bWxdTU9TQUlDX1JFRFVDRV9NSUFBLTY1NS5ta3YKfwQAAAAAAAB/BAAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvY2pvZDM1My9jam9kMzUzcGwuanBnCgcEAAAAAAAABwQAAAAAAAB4AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlL2ZhZTQwZTBiY2MzYzE1NjgzNDlkZTkyMmQ1YjYzZDY4L01vc2FpY19yZWR1Y2VfQ0pPRC0zNTMubWt2Lmh0bWxdTW9zYWljX3JlZHVjZV9DSk9ELTM1My5ta3YKPAMAAAAAAAA8AwAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvY2pvZDM2Mi9jam9kMzYycGwuanBnCsQCAAAAAAAAxAIAAAAAAAB4AAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzQ0YmQ5NmFkZGVlYTliZmRkZjAxMmVjMGM4M2Y2NDg3L01vc2FpY19yZWR1Y2VfQ0pPRC0zNjIubWt2Lmh0bWxdTW9zYWljX3JlZHVjZV9DSk9ELTM2Mi5ta3YKzAEAAAAAAADMAQAAAAAAAD4AAABodHRwczovL3BpY3MuZG1tLmNvLmpwL21vbm8vbW92aWUvYWR1bHQvcHBwZTA4NC9wcHBlMDg0cGwuanBnCm8BAAAAAAAAbwEAAAAAAABdAAAAaHR0cHM6Ly9yYXBpZGdhdG9yLm5ldC9maWxlLzZiYjY3YmNkMDgzOGJiNWQ4MDE5N2EzZjQ4NDE3NDQ4L01vc2FpY19yZWR1Y2VfUFBQRS0wODQubWt2Lmh0bWwK",
+							"AQAAAAAAAAASAAAAbwEAAAAAAAB0AQAAAAAAAAAAAAAAAPC/zAEAAAAAAADRAQAAAAAAAAAAAAAAAPC/xAIAAAAAAADJAgAAAAAAAAAAAAAAAPC/PAMAAAAAAABBAwAAAAAAAAAAAAAAAPC/BwQAAAAAAAAMBAAAAAAAAAAAAAAAAPC/fwQAAAAAAACEBAAAAAAAAAAAAAAAAPC/iAUAAAAAAACNBQAAAAAAAAAAAAAAAPC/AAYAAAAAAAAFBgAAAAAAAAAAAAAAAPC/JQcAAAAAAAAqBwAAAAAAAAAAAAAAAPC/rQcAAAAAAACyBwAAAAAAAAAAAAAAAPC/VwgAAAAAAABcCAAAAAAAAAAAAAAAAPC/zwgAAAAAAADUCAAAAAAAAAAAAAAAAPC/qAkAAAAAAACtCQAAAAAAAAAAAAAAAPC/IAoAAAAAAAAlCgAAAAAAAAAAAAAAAPC/uwoAAAAAAADACgAAAAAAAAAAAAAAAPC/MwsAAAAAAAA4CwAAAAAAAAAAAAAAAPC/BQwAAAAAAAAKDAAAAAAAAAAAAAAAAPC/XQwAAAAAAABiDAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							115,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAAgBAAAAAAAACQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACAEAAAAAAAAIAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							116,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAAkBAAAAAAAACgEAAAAAAAAAAAAACgEAAAAAAAAKAQAAAAAAAEwAAAAhIERpcnR5IFRhbGsgQ292ZXJlZCBQaW5jZXIgU2hvdCBVbnRpbCBNb3JuaW5nIDJuZCBQYXJ0eSBBbGljZSBOaWltdXJhIEFrYXJpCgEAAAAAAAALAQAAAAAAAAAAAAALAQAAAAAAAAsBAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAACQEAAAAAAAAJAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							122,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAGIBAAAAAAAAYwEAAAAAAAAAAAAAYwEAAAAAAABjAQAAAAAAAGMAAABBbmQgQ29tZXMgQXMgQSBTbHV0IEknbSBGdWNraW5nIFlvdXIgRGljayBXaXRoIEEgQ2xvc2UgQ29udGFjdCBCaWcgQXNzIFByZXNzIEFsaWNlIE90byBNaXp1a2kgWWF5b2ljAQAAAAAAAGQBAAAAAAAAAAAAAGQBAAAAAAAAZAEAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAYgEAAAAAAABiAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							128,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAKoBAAAAAAAAqwEAAAAAAAAAAAAAqwEAAAAAAACrAQAAAAAAAEsAAABCeSBCaWcgQnV0dHMgQW5kIEFsdGVybmF0ZWx5IENyZWFtcGllIFJldmVyc2UgUmUg4pePIFB1IE90byBBbGljZSBJbWFpIEthaG+rAQAAAAAAAKwBAAAAAAAAAAAAAKwBAAAAAAAArAEAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAqgEAAAAAAACqAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							136,
+							1,
+							"right_delete",
+							null,
+							"AQAAANkBAAAAAAAA2QEAAAAAAAAlAAAAUGFwYSBLYXRzdSBSZXZlcnNlIFJleCBQdSBBbiBFbmRsZXNzIA",
+							"AQAAAAAAAAABAAAA2QEAAAAAAAD+AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							139,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAPkBAAAAAAAA+gEAAAAAAAAAAAAA+gEAAAAAAAD6AQAAAAAAAGIAAABJbW1lZGlhdGVseSBCbG93IEN1bSBTd2FsbG93aW5nICYgUGlsZSBEcml2aW5nIENyZWFtcGllIEluZmluaXRlIFB0b00gRXhjZXNzaXZlIFNlcnZpY2UgT3RzdSBBbGljZfoBAAAAAAAA+wEAAAAAAAAAAAAA+wEAAAAAAAD7AQAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAA+QEAAAAAAAD5AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							145,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAADQCAAAAAAAANQIAAAAAAAAAAAAANQIAAAAAAAA1AgAAAAAAAJ0AAABCeSBNeSBZb3VuZ2VyIEJyb3RoZXIncyBTcGVhciBNYW4gU2lzdGVycyBXaG8gQ2F1Z2h0IE15IEJvb2JzLiBUb28gUmFkaWNhbCBbQVNNUiAvIFN1YmplY3Rpdml0eSAvIEpPSV0gQ29tbWl0cyBGcm9tIEZyb250LCBCYWNrLCBMZWZ0IEFuZCBSaWdodCBUbyBUaGUgQnJhaW4uNQIAAAAAAAA2AgAAAAAAAAAAAAA2AgAAAAAAADYCAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAANAIAAAAAAAA0AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							151,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAIECAAAAAAAAggIAAAAAAAAAAAAAggIAAAAAAACCAgAAAAAAADAAAABCcm90aGVycydzIEdhbCBJcyBGaXhlZCBBcyBUd28gSG9sZXMuIE90c3UgQWxpY2WCAgAAAAAAAIMCAAAAAAAAAAAAAIMCAAAAAAAAgwIAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAgQIAAAAAAACBAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							154,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAK8CAAAAAAAAsAIAAAAAAAAAAAAAsAIAAAAAAACwAgAAAAAAAHAAAADil4shIE5vZG9tYSBDbyEgS2V0c3VtYSBDbyEgSWt1aWt1IElzIH4gV2hlcmUgSXMgRlVDSyEgQ3VtIFN3YWxsb3dpbmcgSW4gMyBIb2xlcyEgU3VycHJpc2VkIDE5IFNob3RzISBPdHN1IEFsaWNlsAIAAAAAAACxAgAAAAAAAAAAAACxAgAAAAAAALECAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAArwIAAAAAAACvAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							157,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAPMCAAAAAAAA9AIAAAAAAAAAAAAA9AIAAAAAAAD0AgAAAAAAABoAAABBbmQgQ3VtIFNob3QgT0sgT3RzdSBBbGljZfQCAAAAAAAA9QIAAAAAAAAAAAAA9QIAAAAAAAD1AgAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAA8wIAAAAAAADzAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							160,
+							1,
+							"right_delete",
+							null,
+							"AQAAAAoDAAAAAAAACgMAAAAAAAA3AAAAV2hlbiBBIFZpcmdpbiBHZXRzIEJhcnJlZCBCeSBUd28gQmlnIFRpdHMgU3Vib3JkaW5hdGVzIA",
+							"AQAAAAAAAAABAAAACgMAAAAAAABBAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							163,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAC0DAAAAAAAALgMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQMAAAAAAAAtAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							164,
+							1,
+							"run_macro_file",
+							{
+								"file": "Packages/User/jav_trunc_add_actress.sublime-macro"
+							},
+							"BAAAAC4DAAAAAAAALwMAAAAAAAAAAAAALwMAAAAAAAAvAwAAAAAAABoAAAAsIEl0IEJlY29tZXMgQSBCZWFzdCBTbHV0Li8DAAAAAAAAMAMAAAAAAAAAAAAAMAMAAAAAAAAwAwAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAALgMAAAAAAAAuAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							174,
+							1,
+							"right_delete",
+							null,
+							"AQAAAL4AAAAAAAAAvgAAAAAAAACHAgAACi0tLS1TZWluYSBBcmlzYQpQUFBFLTA4NCBUaGVyZSdzIE5vIExhc3QgVHJhaW4sIFNvIEknbSBHb2luZyBUbyBUaGUgSG90ZWwgLSBOaWltdXJhIEFrYXJpO1NlaW5hIEFyaXNhCkNKT0QtMzYyIE5laWdoYm9yIERpcnR5IEFwYXJ0bWVudCBXaWZlIFdobyBTaGFrZXMgQSBCaWcgQnV0dCAtIFlheW9pIE1penVraTtTZWluYSBBcmlzYQpDSk9ELTM1MyBXIEdhbCBBc3MgRGUgU2x1dCBIYXJsZW0gU3Vycm91bmRlZCAtIEltYWkgS2FobztTZWluYSBBcmlzYQpNSUFBLTY1NSBCaWcgQXNzIEdhbCdzIFNsdXQgQ29tZXMgVG8gV2FudCBQb2NrZXQgTW9uZXkgLSBTZWluYSBBcmlzYQpQUFBFLTAzOCBJdCdzIEJlZW4gMTAgWWVhcnMgU2luY2UgSSBXYXMgU2hvdCAtIFNlaW5hIEFyaXNhO01vbW9uYWdhIFNhcmluYQpEQVNELTk5NCBUaGUgTWFya2V0IFByaWNlIE9mIFRoZSBCaWcgT3JneSBIb2xlIC0gU2VpbmEgQXJpc2EKTVZTRC01MDQgUm9zZSBGVUNLIEJ1bm55IE9tYSBDbyAtIFNlaW5hIEFyaXNhClBQUEUtMDI5IEhlciBPbGRlciBTaXN0ZXIgU2VkdWNlcyBNZSBXaXRoIEJpZyBCcmVhc3RzIC0gU2VpbmEgQXJpc2EKQ0FXRC0zNjMgSW4gQSBTaGFyZWQgUm9vbSBPbiBBIEJ1c2luZXNzIFRyaXAgLSBTZWluYSBBcmlzYTtZdWtpIFJpbm8",
+							"AQAAAAAAAAABAAAARQMAAAAAAAC+AAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"contents": "CLI find files\n\nfind - find files in filesystem\n[fd-find](https://github.com/sharkdp/fd) - fd-find (fd) entries in filesystem, simplified\n[ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep (rg) is a line-oriented search tool that recursively searches the current directory for a regex pattern. \n\n- item one\n  this is indented text under item 1, which can\n  span over multiplie lines\n\n- item two\n  is a line-oriented search tool that recursively\n  searches the current directory for a regex \\\n  pattern.\n\n1. Numbered item\n   It should also work under a number item",
+					"settings":
+					{
+						"buffer_size": 571,
+						"line_ending": "Unix",
+						"name": "CLI find files"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "CL"
+							},
+							"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							2,
+							1,
+							"insert",
+							{
+								"characters": " find"
+							},
+							"BQAAAAIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							3,
+							1,
+							"insert",
+							{
+								"characters": " fils"
+							},
+							"BQAAAAcAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAAMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABwAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": "I"
+							},
+							"AQAAAAIAAAAAAAAAAwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": "e"
+							},
+							"AQAAAAwAAAAAAAAADQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "\n\nfind"
+							},
+							"BgAAAA4AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADgAAAAAAAAAOAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": "\nfd"
+							},
+							"AwAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "\nrg"
+							},
+							"AwAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": " -"
+							},
+							"AgAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAAADRA"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": " find"
+							},
+							"BQAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": " entries"
+							},
+							"CAAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": " int"
+							},
+							"BAAAACYAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACkAAAAAAAAAAAAAACkAAAAAAAAAKgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"left_delete",
+							null,
+							"AQAAACkAAAAAAAAAKQAAAAAAAAABAAAAdA",
+							"AQAAAAAAAAABAAAAKgAAAAAAAAAqAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": " files"
+							},
+							"BgAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKQAAAAAAAAApAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": "ystem,"
+							},
+							"BgAAAC8AAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAxAAAAAAAAAAAAAAAxAAAAAAAAADIAAAAAAAAAAAAAADIAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": " simplifie"
+							},
+							"CgAAADUAAAAAAAAANgAAAAAAAAAAAAAANgAAAAAAAAA3AAAAAAAAAAAAAAA3AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOQAAAAAAAAAAAAAAOQAAAAAAAAA6AAAAAAAAAAAAAAA6AAAAAAAAADsAAAAAAAAAAAAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAAAAAAD4AAAAAAAAAPwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							1,
+							"insert",
+							{
+								"characters": "d"
+							},
+							"AQAAAD8AAAAAAAAAQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPwAAAAAAAAA/AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert_snippet",
+							{
+								"contents": "[${0:$SELECTION}]"
+							},
+							"AgAAABUAAAAAAAAAFQAAAAAAAAACAAAAZmQVAAAAAAAAABkAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFwAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert_snippet",
+							{
+								"contents": "($0)"
+							},
+							"AQAAABkAAAAAAAAAGwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"",
+							null,
+							"AQAAABoAAAAAAAAANwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert",
+							{
+								"characters": "fd-"
+							},
+							"AwAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOwAAAAAAAAA7AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							1,
+							"insert",
+							{
+								"characters": " -"
+							},
+							"AgAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": " find"
+							},
+							"BQAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFgAAAAAAAAAWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": " files"
+							},
+							"BgAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							44,
+							1,
+							"insert",
+							{
+								"characters": " in"
+							},
+							"AwAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"insert",
+							{
+								"characters": " filesyst"
+							},
+							"CQAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJAAAAAAAAAAkAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							46,
+							1,
+							"insert",
+							{
+								"characters": "e,"
+							},
+							"AgAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"left_delete",
+							null,
+							"AQAAAC4AAAAAAAAALgAAAAAAAAABAAAALA",
+							"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							48,
+							1,
+							"insert",
+							{
+								"characters": "m"
+							},
+							"AQAAAC4AAAAAAAAALwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							56,
+							1,
+							"insert",
+							{
+								"characters": "-find"
+							},
+							"BQAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA4AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMwAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"insert",
+							{
+								"characters": "(fd)"
+							},
+							"BAAAAGMAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABlAAAAAAAAAAAAAABlAAAAAAAAAGYAAAAAAAAAAAAAAGYAAAAAAAAAZwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYwAAAAAAAABjAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							60,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAGcAAAAAAAAAaAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZwAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							62,
+							2,
+							"left_delete",
+							null,
+							"AgAAAIsAAAAAAAAAiwAAAAAAAAABAAAAZ4oAAAAAAAAAigAAAAAAAAABAAAAcg",
+							"AQAAAAAAAAABAAAAjAAAAAAAAACMAAAAAAAAAAAAAAAAgIFA"
+						],
+						[
+							63,
+							1,
+							"insert_snippet",
+							{
+								"contents": "[$0]"
+							},
+							"AQAAAIoAAAAAAAAAjAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							64,
+							1,
+							"insert",
+							{
+								"characters": "ripgrep"
+							},
+							"BwAAAIsAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACNAAAAAAAAAAAAAACNAAAAAAAAAI4AAAAAAAAAAAAAAI4AAAAAAAAAjwAAAAAAAAAAAAAAjwAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJEAAAAAAAAAAAAAAJEAAAAAAAAAkgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiwAAAAAAAACLAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							66,
+							1,
+							"insert_snippet",
+							{
+								"contents": "($0)"
+							},
+							"AQAAAJMAAAAAAAAAlQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							68,
+							1,
+							"",
+							null,
+							"AQAAAJQAAAAAAAAAuQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							70,
+							1,
+							"insert",
+							{
+								"characters": " -"
+							},
+							"AgAAALoAAAAAAAAAuwAAAAAAAAAAAAAAuwAAAAAAAAC8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAugAAAAAAAAC6AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							71,
+							1,
+							"insert",
+							{
+								"characters": " ripgre"
+							},
+							"BwAAALwAAAAAAAAAvQAAAAAAAAAAAAAAvQAAAAAAAAC+AAAAAAAAAAAAAAC+AAAAAAAAAL8AAAAAAAAAAAAAAL8AAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADBAAAAAAAAAAAAAADBAAAAAAAAAMIAAAAAAAAAAAAAAMIAAAAAAAAAwwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvAAAAAAAAAC8AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							72,
+							1,
+							"insert",
+							{
+								"characters": "p"
+							},
+							"AQAAAMMAAAAAAAAAxAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwwAAAAAAAADDAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							73,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAMQAAAAAAAAAxQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxAAAAAAAAADEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							74,
+							1,
+							"insert_snippet",
+							{
+								"contents": "($0)"
+							},
+							"AQAAAMUAAAAAAAAAxwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxQAAAAAAAADFAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							75,
+							1,
+							"insert",
+							{
+								"characters": "rg"
+							},
+							"AgAAAMYAAAAAAAAAxwAAAAAAAAAAAAAAxwAAAAAAAADIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxgAAAAAAAADGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							77,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAMkAAAAAAAAAygAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAyQAAAAAAAADJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							78,
+							1,
+							"",
+							null,
+							"AQAAAMoAAAAAAAAALgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAygAAAAAAAADKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							81,
+							1,
+							"insert",
+							{
+								"characters": "\n\n-"
+							},
+							"AwAAAC4BAAAAAAAALwEAAAAAAAAAAAAALwEAAAAAAAAwAQAAAAAAAAAAAAAwAQAAAAAAADEBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALgEAAAAAAAAuAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							82,
+							1,
+							"insert",
+							{
+								"characters": " item"
+							},
+							"BQAAADEBAAAAAAAAMgEAAAAAAAAAAAAAMgEAAAAAAAAzAQAAAAAAAAAAAAAzAQAAAAAAADQBAAAAAAAAAAAAADQBAAAAAAAANQEAAAAAAAAAAAAANQEAAAAAAAA2AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMQEAAAAAAAAxAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							83,
+							1,
+							"insert",
+							{
+								"characters": " one"
+							},
+							"BAAAADYBAAAAAAAANwEAAAAAAAAAAAAANwEAAAAAAAA4AQAAAAAAAAAAAAA4AQAAAAAAADkBAAAAAAAAAAAAADkBAAAAAAAAOgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANgEAAAAAAAA2AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							84,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAADoBAAAAAAAAOwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOgEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							85,
+							1,
+							"reindent",
+							null,
+							"AQAAADsBAAAAAAAAPAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOwEAAAAAAAA7AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							86,
+							1,
+							"left_delete",
+							null,
+							"AQAAADsBAAAAAAAAOwEAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAPAEAAAAAAAA8AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							87,
+							1,
+							"insert",
+							{
+								"characters": "   thi"
+							},
+							"BgAAADsBAAAAAAAAPAEAAAAAAAAAAAAAPAEAAAAAAAA9AQAAAAAAAAAAAAA9AQAAAAAAAD4BAAAAAAAAAAAAAD4BAAAAAAAAPwEAAAAAAAAAAAAAPwEAAAAAAABAAQAAAAAAAAAAAABAAQAAAAAAAEEBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOwEAAAAAAAA7AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							88,
+							4,
+							"left_delete",
+							null,
+							"BAAAAEABAAAAAAAAQAEAAAAAAAABAAAAaT8BAAAAAAAAPwEAAAAAAAABAAAAaD4BAAAAAAAAPgEAAAAAAAABAAAAdD0BAAAAAAAAPQEAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAQQEAAAAAAABBAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							89,
+							1,
+							"insert",
+							{
+								"characters": "this"
+							},
+							"BAAAAD0BAAAAAAAAPgEAAAAAAAAAAAAAPgEAAAAAAAA/AQAAAAAAAAAAAAA/AQAAAAAAAEABAAAAAAAAAAAAAEABAAAAAAAAQQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPQEAAAAAAAA9AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							90,
+							1,
+							"insert",
+							{
+								"characters": " is"
+							},
+							"AwAAAEEBAAAAAAAAQgEAAAAAAAAAAAAAQgEAAAAAAABDAQAAAAAAAAAAAABDAQAAAAAAAEQBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQQEAAAAAAABBAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							91,
+							1,
+							"insert",
+							{
+								"characters": " indednt"
+							},
+							"CAAAAEQBAAAAAAAARQEAAAAAAAAAAAAARQEAAAAAAABGAQAAAAAAAAAAAABGAQAAAAAAAEcBAAAAAAAAAAAAAEcBAAAAAAAASAEAAAAAAAAAAAAASAEAAAAAAABJAQAAAAAAAAAAAABJAQAAAAAAAEoBAAAAAAAAAAAAAEoBAAAAAAAASwEAAAAAAAAAAAAASwEAAAAAAABMAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARAEAAAAAAABEAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							92,
+							3,
+							"left_delete",
+							null,
+							"AwAAAEsBAAAAAAAASwEAAAAAAAABAAAAdEoBAAAAAAAASgEAAAAAAAABAAAAbkkBAAAAAAAASQEAAAAAAAABAAAAZA",
+							"AQAAAAAAAAABAAAATAEAAAAAAABMAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							93,
+							1,
+							"insert",
+							{
+								"characters": "nted"
+							},
+							"BAAAAEkBAAAAAAAASgEAAAAAAAAAAAAASgEAAAAAAABLAQAAAAAAAAAAAABLAQAAAAAAAEwBAAAAAAAAAAAAAEwBAAAAAAAATQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASQEAAAAAAABJAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							94,
+							1,
+							"insert",
+							{
+								"characters": " text"
+							},
+							"BQAAAE0BAAAAAAAATgEAAAAAAAAAAAAATgEAAAAAAABPAQAAAAAAAAAAAABPAQAAAAAAAFABAAAAAAAAAAAAAFABAAAAAAAAUQEAAAAAAAAAAAAAUQEAAAAAAABSAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATQEAAAAAAABNAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							95,
+							1,
+							"insert",
+							{
+								"characters": " under"
+							},
+							"BgAAAFIBAAAAAAAAUwEAAAAAAAAAAAAAUwEAAAAAAABUAQAAAAAAAAAAAABUAQAAAAAAAFUBAAAAAAAAAAAAAFUBAAAAAAAAVgEAAAAAAAAAAAAAVgEAAAAAAABXAQAAAAAAAAAAAABXAQAAAAAAAFgBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUgEAAAAAAABSAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							96,
+							1,
+							"insert",
+							{
+								"characters": " item"
+							},
+							"BQAAAFgBAAAAAAAAWQEAAAAAAAAAAAAAWQEAAAAAAABaAQAAAAAAAAAAAABaAQAAAAAAAFsBAAAAAAAAAAAAAFsBAAAAAAAAXAEAAAAAAAAAAAAAXAEAAAAAAABdAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAEAAAAAAABYAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							97,
+							1,
+							"insert",
+							{
+								"characters": " 1"
+							},
+							"AgAAAF0BAAAAAAAAXgEAAAAAAAAAAAAAXgEAAAAAAABfAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXQEAAAAAAABdAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							98,
+							1,
+							"insert",
+							{
+								"characters": ","
+							},
+							"AQAAAF8BAAAAAAAAYAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXwEAAAAAAABfAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							99,
+							1,
+							"insert",
+							{
+								"characters": " which"
+							},
+							"BgAAAGABAAAAAAAAYQEAAAAAAAAAAAAAYQEAAAAAAABiAQAAAAAAAAAAAABiAQAAAAAAAGMBAAAAAAAAAAAAAGMBAAAAAAAAZAEAAAAAAAAAAAAAZAEAAAAAAABlAQAAAAAAAAAAAABlAQAAAAAAAGYBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYAEAAAAAAABgAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							100,
+							1,
+							"insert",
+							{
+								"characters": " can"
+							},
+							"BAAAAGYBAAAAAAAAZwEAAAAAAAAAAAAAZwEAAAAAAABoAQAAAAAAAAAAAABoAQAAAAAAAGkBAAAAAAAAAAAAAGkBAAAAAAAAagEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZgEAAAAAAABmAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							101,
+							1,
+							"insert",
+							{
+								"characters": "\nspan"
+							},
+							"BgAAAGoBAAAAAAAAawEAAAAAAAAAAAAAawEAAAAAAABtAQAAAAAAAAAAAABtAQAAAAAAAG4BAAAAAAAAAAAAAG4BAAAAAAAAbwEAAAAAAAAAAAAAbwEAAAAAAABwAQAAAAAAAAAAAABwAQAAAAAAAHEBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagEAAAAAAABqAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							102,
+							1,
+							"insert",
+							{
+								"characters": " over"
+							},
+							"BQAAAHEBAAAAAAAAcgEAAAAAAAAAAAAAcgEAAAAAAABzAQAAAAAAAAAAAABzAQAAAAAAAHQBAAAAAAAAAAAAAHQBAAAAAAAAdQEAAAAAAAAAAAAAdQEAAAAAAAB2AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcQEAAAAAAABxAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							103,
+							1,
+							"insert",
+							{
+								"characters": " multiplie"
+							},
+							"CgAAAHYBAAAAAAAAdwEAAAAAAAAAAAAAdwEAAAAAAAB4AQAAAAAAAAAAAAB4AQAAAAAAAHkBAAAAAAAAAAAAAHkBAAAAAAAAegEAAAAAAAAAAAAAegEAAAAAAAB7AQAAAAAAAAAAAAB7AQAAAAAAAHwBAAAAAAAAAAAAAHwBAAAAAAAAfQEAAAAAAAAAAAAAfQEAAAAAAAB+AQAAAAAAAAAAAAB+AQAAAAAAAH8BAAAAAAAAAAAAAH8BAAAAAAAAgAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdgEAAAAAAAB2AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							104,
+							1,
+							"insert",
+							{
+								"characters": " li"
+							},
+							"AwAAAIABAAAAAAAAgQEAAAAAAAAAAAAAgQEAAAAAAACCAQAAAAAAAAAAAACCAQAAAAAAAIMBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAgAEAAAAAAACAAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							105,
+							1,
+							"insert",
+							{
+								"characters": "nes"
+							},
+							"AwAAAIMBAAAAAAAAhAEAAAAAAAAAAAAAhAEAAAAAAACFAQAAAAAAAAAAAACFAQAAAAAAAIYBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAgwEAAAAAAACDAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							106,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAIYBAAAAAAAAhwEAAAAAAAAAAAAAhwEAAAAAAACJAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhgEAAAAAAACGAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							107,
+							2,
+							"left_delete",
+							null,
+							"AgAAAIgBAAAAAAAAiAEAAAAAAAABAAAAIIcBAAAAAAAAhwEAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAiQEAAAAAAACJAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							108,
+							1,
+							"insert",
+							{
+								"characters": "-"
+							},
+							"AQAAAIcBAAAAAAAAiAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhwEAAAAAAACHAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							109,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIcBAAAAAAAAhwEAAAAAAAABAAAALQ",
+							"AQAAAAAAAAABAAAAiAEAAAAAAACIAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							110,
+							1,
+							"insert",
+							{
+								"characters": "\n-"
+							},
+							"AgAAAIcBAAAAAAAAiAEAAAAAAAAAAAAAiAEAAAAAAACJAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhwEAAAAAAACHAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							111,
+							1,
+							"insert",
+							{
+								"characters": " itemm"
+							},
+							"BgAAAIkBAAAAAAAAigEAAAAAAAAAAAAAigEAAAAAAACLAQAAAAAAAAAAAACLAQAAAAAAAIwBAAAAAAAAAAAAAIwBAAAAAAAAjQEAAAAAAAAAAAAAjQEAAAAAAACOAQAAAAAAAAAAAACOAQAAAAAAAI8BAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiQEAAAAAAACJAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							112,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAI8BAAAAAAAAkAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjwEAAAAAAACPAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							113,
+							2,
+							"left_delete",
+							null,
+							"AgAAAI8BAAAAAAAAjwEAAAAAAAABAAAAII4BAAAAAAAAjgEAAAAAAAABAAAAbQ",
+							"AQAAAAAAAAABAAAAkAEAAAAAAACQAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							114,
+							1,
+							"insert",
+							{
+								"characters": " r"
+							},
+							"AgAAAI4BAAAAAAAAjwEAAAAAAAAAAAAAjwEAAAAAAACQAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjgEAAAAAAACOAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							115,
+							1,
+							"left_delete",
+							null,
+							"AQAAAI8BAAAAAAAAjwEAAAAAAAABAAAAcg",
+							"AQAAAAAAAAABAAAAkAEAAAAAAACQAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							116,
+							1,
+							"insert",
+							{
+								"characters": "two"
+							},
+							"AwAAAI8BAAAAAAAAkAEAAAAAAAAAAAAAkAEAAAAAAACRAQAAAAAAAAAAAACRAQAAAAAAAJIBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjwEAAAAAAACPAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							117,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAJIBAAAAAAAAkwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkgEAAAAAAACSAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							123,
+							1,
+							"",
+							null,
+							"AQAAAJMBAAAAAAAA9wEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwEAAAAAAACTAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							126,
+							1,
+							"insert",
+							{
+								"characters": "  "
+							},
+							"AgAAAJMBAAAAAAAAlAEAAAAAAAAAAAAAlAEAAAAAAACVAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwEAAAAAAACTAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							130,
+							1,
+							"left_delete",
+							null,
+							"AQAAAMQBAAAAAAAAxAEAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAxQEAAAAAAADFAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							131,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAMQBAAAAAAAAxQEAAAAAAAAAAAAAxQEAAAAAAADHAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxAEAAAAAAADEAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							134,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAPIBAAAAAAAA8wEAAAAAAAAAAAAA8wEAAAAAAAD1AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA8gEAAAAAAADyAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							136,
+							1,
+							"left_delete",
+							null,
+							"AQAAAP0BAAAAAAAA/QEAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAA/gEAAAAAAAD+AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							139,
+							1,
+							"insert",
+							{
+								"characters": "\\"
+							},
+							"AQAAAPIBAAAAAAAA8wEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA8gEAAAAAAADyAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							141,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"BQAAAP4BAAAAAAAA/wEAAAAAAAAAAAAA/wEAAAAAAAABAgAAAAAAAAAAAAABAgAAAAAAAAICAAAAAAAAAAAAAAICAAAAAAAABAIAAAAAAAAAAAAA/wEAAAAAAAD/AQAAAAAAAAIAAAAgIA",
+							"AQAAAAAAAAABAAAA/gEAAAAAAAD+AQAAAAAAAAAAAAAAwHxA"
+						],
+						[
+							142,
+							2,
+							"left_delete",
+							null,
+							"AgAAAAECAAAAAAAAAQIAAAAAAAABAAAAIAACAAAAAAAAAAIAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAAgIAAAAAAAACAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							143,
+							1,
+							"insert",
+							{
+								"characters": "1."
+							},
+							"AgAAAAACAAAAAAAAAQIAAAAAAAAAAAAAAQIAAAAAAAACAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							144,
+							1,
+							"insert",
+							{
+								"characters": " shou"
+							},
+							"BQAAAAICAAAAAAAAAwIAAAAAAAAAAAAAAwIAAAAAAAAEAgAAAAAAAAAAAAAEAgAAAAAAAAUCAAAAAAAAAAAAAAUCAAAAAAAABgIAAAAAAAAAAAAABgIAAAAAAAAHAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgIAAAAAAAACAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							145,
+							4,
+							"left_delete",
+							null,
+							"BAAAAAYCAAAAAAAABgIAAAAAAAABAAAAdQUCAAAAAAAABQIAAAAAAAABAAAAbwQCAAAAAAAABAIAAAAAAAABAAAAaAMCAAAAAAAAAwIAAAAAAAABAAAAcw",
+							"AQAAAAAAAAABAAAABwIAAAAAAAAHAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							146,
+							1,
+							"insert",
+							{
+								"characters": "Numbered"
+							},
+							"CAAAAAMCAAAAAAAABAIAAAAAAAAAAAAABAIAAAAAAAAFAgAAAAAAAAAAAAAFAgAAAAAAAAYCAAAAAAAAAAAAAAYCAAAAAAAABwIAAAAAAAAAAAAABwIAAAAAAAAIAgAAAAAAAAAAAAAIAgAAAAAAAAkCAAAAAAAAAAAAAAkCAAAAAAAACgIAAAAAAAAAAAAACgIAAAAAAAALAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAwIAAAAAAAADAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							147,
+							1,
+							"insert",
+							{
+								"characters": " item"
+							},
+							"BQAAAAsCAAAAAAAADAIAAAAAAAAAAAAADAIAAAAAAAANAgAAAAAAAAAAAAANAgAAAAAAAA4CAAAAAAAAAAAAAA4CAAAAAAAADwIAAAAAAAAAAAAADwIAAAAAAAAQAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACwIAAAAAAAALAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							148,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAABACAAAAAAAAEQIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEAIAAAAAAAAQAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							149,
+							1,
+							"insert",
+							{
+								"characters": "   It"
+							},
+							"BQAAABECAAAAAAAAEgIAAAAAAAAAAAAAEgIAAAAAAAATAgAAAAAAAAAAAAATAgAAAAAAABQCAAAAAAAAAAAAABQCAAAAAAAAFQIAAAAAAAAAAAAAFQIAAAAAAAAWAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEQIAAAAAAAARAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							150,
+							1,
+							"insert",
+							{
+								"characters": " whous"
+							},
+							"BgAAABYCAAAAAAAAFwIAAAAAAAAAAAAAFwIAAAAAAAAYAgAAAAAAAAAAAAAYAgAAAAAAABkCAAAAAAAAAAAAABkCAAAAAAAAGgIAAAAAAAAAAAAAGgIAAAAAAAAbAgAAAAAAAAAAAAAbAgAAAAAAABwCAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFgIAAAAAAAAWAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							151,
+							5,
+							"left_delete",
+							null,
+							"BQAAABsCAAAAAAAAGwIAAAAAAAABAAAAcxoCAAAAAAAAGgIAAAAAAAABAAAAdRkCAAAAAAAAGQIAAAAAAAABAAAAbxgCAAAAAAAAGAIAAAAAAAABAAAAaBcCAAAAAAAAFwIAAAAAAAABAAAAdw",
+							"AQAAAAAAAAABAAAAHAIAAAAAAAAcAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							152,
+							1,
+							"insert",
+							{
+								"characters": "should"
+							},
+							"BgAAABcCAAAAAAAAGAIAAAAAAAAAAAAAGAIAAAAAAAAZAgAAAAAAAAAAAAAZAgAAAAAAABoCAAAAAAAAAAAAABoCAAAAAAAAGwIAAAAAAAAAAAAAGwIAAAAAAAAcAgAAAAAAAAAAAAAcAgAAAAAAAB0CAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFwIAAAAAAAAXAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							153,
+							1,
+							"insert",
+							{
+								"characters": " also"
+							},
+							"BQAAAB0CAAAAAAAAHgIAAAAAAAAAAAAAHgIAAAAAAAAfAgAAAAAAAAAAAAAfAgAAAAAAACACAAAAAAAAAAAAACACAAAAAAAAIQIAAAAAAAAAAAAAIQIAAAAAAAAiAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQIAAAAAAAAdAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							154,
+							1,
+							"insert",
+							{
+								"characters": " work"
+							},
+							"BQAAACICAAAAAAAAIwIAAAAAAAAAAAAAIwIAAAAAAAAkAgAAAAAAAAAAAAAkAgAAAAAAACUCAAAAAAAAAAAAACUCAAAAAAAAJgIAAAAAAAAAAAAAJgIAAAAAAAAnAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIgIAAAAAAAAiAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							155,
+							1,
+							"insert",
+							{
+								"characters": " under"
+							},
+							"BgAAACcCAAAAAAAAKAIAAAAAAAAAAAAAKAIAAAAAAAApAgAAAAAAAAAAAAApAgAAAAAAACoCAAAAAAAAAAAAACoCAAAAAAAAKwIAAAAAAAAAAAAAKwIAAAAAAAAsAgAAAAAAAAAAAAAsAgAAAAAAAC0CAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJwIAAAAAAAAnAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							156,
+							1,
+							"insert",
+							{
+								"characters": " a"
+							},
+							"AgAAAC0CAAAAAAAALgIAAAAAAAAAAAAALgIAAAAAAAAvAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQIAAAAAAAAtAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							157,
+							1,
+							"insert",
+							{
+								"characters": " number"
+							},
+							"BwAAAC8CAAAAAAAAMAIAAAAAAAAAAAAAMAIAAAAAAAAxAgAAAAAAAAAAAAAxAgAAAAAAADICAAAAAAAAAAAAADICAAAAAAAAMwIAAAAAAAAAAAAAMwIAAAAAAAA0AgAAAAAAAAAAAAA0AgAAAAAAADUCAAAAAAAAAAAAADUCAAAAAAAANgIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALwIAAAAAAAAvAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							158,
+							1,
+							"insert",
+							{
+								"characters": " item"
+							},
+							"BQAAADYCAAAAAAAANwIAAAAAAAAAAAAANwIAAAAAAAA4AgAAAAAAAAAAAAA4AgAAAAAAADkCAAAAAAAAAAAAADkCAAAAAAAAOgIAAAAAAAAAAAAAOgIAAAAAAAA7AgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANgIAAAAAAAA2AgAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Snippet: ",
+						"Snippet: newtemplate"
+					],
+					[
+						"close",
+						"File: Close All"
+					],
+					[
+						"Fav",
+						"Favorite Files: Add File(s)"
+					],
+					[
+						"type",
+						"Typewriter: Scrolling Mode (Toggle)"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"f",
+						"Favorite Files: Open File(s)"
+					],
+					[
+						"fav",
+						"Favorite Files: Open File(s)"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 160.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rodney/python/rip/holding.txt",
+				"/home/rodney/python/rip/updates.txt",
+				"/home/rodney/.config/zsh/.zshrc",
+				"/home/rodney/dotfiles/zsh/.config/zsh/aliases.zsh",
+				"/home/rodney/python/cueflac/README.1st",
+				"/home/rodney/python/cueflac_/README.1st",
+				"/home/rodney/python/cueflac/README.md",
+				"/home/rodney/Music/done/00xfered/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/1970-This Is Love/Archies, The - This Is Love.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/2012-Jingle Jangle/Archies, The - Jingle Jangle.cue",
+				"/home/rodney/Music/done/00xfered/p-t/Steep Canyon Rangers/2015-Be Still Moses/Steep Canyon Rangers - Be Still Moses.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD10 1959.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD09 1958.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD08 1957.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD07 1956.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD06 1955.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD05 1954.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD04 1953.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD03 1952.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD02 1951.cue",
+				"/home/rodney/Music/done/cdimages-new/Yu Fa Yu Band (雨法雨乐队)/2021-Sleeping Soundly (一夜好眠)/Yu Fa Yu Band (雨法雨乐队) - Sleeping Soundly (一夜好眠).cue",
+				"/home/rodney/Downloads/zzMusicDone/zzThe-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+				"/home/rodney/Downloads/zzMusicDone/zzThe-Fabulous-Thunderbirds-2024-Struck-Down/The Fabulous Thunderbirds - Struck Down.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD16 2020 Hide & Seek~The Lost Collection 1.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 1.cue",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/template",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/filelist",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/Tom Jones - The Complete Decca Studio Albums Collection CD16 The Lost Collection 1.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 2.cue",
+				"/home/rodney/Desktop/notes.txt",
+				"/home/rodney/Music/done/cdimages-current/Monty Alexander/2024-D-Day/Monty Alexander - D-Day.cue",
+				"/home/rodney/Music/done/cdimages-current/Various Artists/1991-Sounds Of The Seventies Rock 'N' Soul Seventies/Various - Sounds Of The Seventies Rock 'N' Soul Seventies.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2019-Pura Vida (Banda Sonora)/Misia - Pura Vida (Banda Sonora).cue",
+				"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD02.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD01.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD02.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD01.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2005-Drama Box/Misia - Drama Box.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2003-Canto/Misia - Canto.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2001-Ritual/Misia - Ritual.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1993-Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1993-Fado/Misia - Fado.cue",
+				"/home/rodney/Downloads/zzMusicDone/zzMisia 9 albums/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+				"/home/rodney/Music/done/cdimages/Blondie/1999-Greatest Hits (Remastered)/Blondie - Greatest Hits (Remastered) CD02 Bonus Maria.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/Misia - Pura Vida (Banda Sonora).cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/Misia - Paara Amalia CD02.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/Misia - Paara Amalia CD01.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/Misia - Ruas CD02.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/Misia - Ruas CD01.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/Misia - Drama Box.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/Misia - Canto.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/Misia - Ritual.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/Misia - Fado.cue",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/template",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/filelist",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/Jay Schwartz - Music For Orchestra, Six Voices, 12 Cellos, Five Stringed Instruments.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/Various - Best Runway Music For Fashion.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/Various - Sunset Emotions Vol 9, Compiled by Marco Celloni.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/Various - Elegant Evening Urban Chillout Music.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/Various - Chillout & Lounge Music Summer Vibes.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/Carloz Afonzo - Best Of Carloz Afonzo.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/template",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/filelist",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/Various - Urban Nightlife Sounds.cue",
+				"/home/rodney/idrive/JD/00akiba/08uc18/00ratings.txt",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/The Police - Synchronicity (Super Deluxe Ed) CD06.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/The Police - Synchronicity (Super Deluxe Ed) CD04.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/The Police - Synchronicity (Super Deluxe Ed) CD05.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/The Police - Synchronicity (Super Deluxe Ed) CD03.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/The Police - Synchronicity (Super Deluxe Ed) CD02.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/filelist",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/template",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/Various - Sun Records Sings Elvis Presley.cue",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/foo_dr.txt",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/template",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/filelist",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue",
+				"/home/rodney/Downloads/complete/Lou-Reed-2024-A-Night-Like-This/template"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"https",
+					"(\\S+\\-\\d+) .*",
+					"^(\\s{1-4}-\\D+) ,*",
+					"\n",
+					"----",
+					"https:",
+					"https",
+					"https:",
+					"https://"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"$1"
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 209,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										23,
+										23
+									]
+								],
+								"settings":
+								{
+									"auto_name": "docker Tutorial in 1 hr",
+									"git_gutter_is_enabled": false,
+									"lsp_uri": "buffer:62",
+									"show_definitions": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"word_wrap": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 571,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										314,
+										314
+									]
+								],
+								"settings":
+								{
+									"auto_name": "CLI find files",
+									"git_gutter_is_enabled": false,
+									"lsp_uri": "buffer:77",
+									"show_definitions": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 144.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,811,406,1912,1024,1920,1080,1",
+			"project": "",
+			"replace":
+			{
+				"height": 76.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
 			"window_id": 51,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "alias jav_vids='rename \"s|Mosaic_reduce_([^\\.]+)\\.m|$1_MR\\.m|i\" *.m??'\n\n\nalias jav_vids=\"rename -n \\'s|Mosaic_reduce_([^\\.]+)\\.m|$1_MR\\.m|i\\' *.m??\"\n\nalias j_ren='rename -n '\\''s|Mosaic_reduce_\\([^\\.]+\\)\\.m|\\1_MR\\.m|i'\\'' *.m??'\n\n\nalias j_ren='rename -n '\\''s|Mosaic_reduce_([^\\.]+)\\.m|$1_MR\\.m|i'\\'' *.m??'\n\nzsh: no matches found: Mosaic_reduce_([^.]+).m\nzsh: command not found: _MR.m\nzsh: command not found: i'\nCan't find string terminator \"'\" anywhere before EOF at line 1, in:\n's\n\nalias j_ren=\"noglob rename -n 's|Mosaic_reduce_\\([^\\.]+\\)\\.m|\\$1_MR\\.m|i' *.m??\"\n",
+					"settings":
+					{
+						"buffer_size": 566,
+						"line_ending": "Unix",
+						"name": "alias jav_vids='rename \"s|Mosaic_reduce_([^\\.]+)\\."
+					},
+					"undo_stack":
+					[
+						[
+							2,
+							1,
+							"",
+							null,
+							"AQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": "alias"
+							},
+							"BQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAAUAAAAAAAAABgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n"
+							},
+							"AwAAAEYAAAAAAAAARwAAAAAAAAAAAAAARwAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEkAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARgAAAAAAAABGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"paste",
+							null,
+							"AQAAAEkAAAAAAAAAfgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"left_delete",
+							null,
+							"AQAAAHcAAAAAAAAAdwAAAAAAAAABAAAAIg",
+							"AQAAAAAAAAABAAAAeAAAAAAAAAB4AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": "'"
+							},
+							"AQAAAHcAAAAAAAAAeAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdwAAAAAAAAB3AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFAAAAAAAAAAUAAAAAAAAAABAAAAIg",
+							"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": "'"
+							},
+							"AQAAAFAAAAAAAAAAUQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": "-n"
+							},
+							"AgAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							1,
+							"insert",
+							{
+								"characters": " \\"
+							},
+							"AgAAAFIAAAAAAAAAUwAAAAAAAAAAAAAAUwAAAAAAAABUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUgAAAAAAAABSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": "\\"
+							},
+							"AQAAAHsAAAAAAAAAfAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAewAAAAAAAAB7AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": "alias"
+							},
+							"BQAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABLAAAAAAAAAAAAAABLAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAATQAAAAAAAAAAAAAATQAAAAAAAABOAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							30,
+							1,
+							"insert",
+							{
+								"characters": " jav_v"
+							},
+							"BgAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUgAAAAAAAABTAAAAAAAAAAAAAABTAAAAAAAAAFQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": "ids="
+							},
+							"BAAAAFQAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAABWAAAAAAAAAFcAAAAAAAAAAAAAAFcAAAAAAAAAWAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": "1"
+							},
+							"AQAAAFgAAAAAAAAAWQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFgAAAAAAAAAWAAAAAAAAAABAAAAMQ",
+							"AQAAAAAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": "`"
+							},
+							"AQAAAFgAAAAAAAAAWQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": "`"
+							},
+							"AQAAAJMAAAAAAAAAlAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							46,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFgAAAAAAAAAWAAAAAAAAAABAAAAYA",
+							"AQAAAAAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"insert",
+							{
+								"characters": "\""
+							},
+							"AQAAAFgAAAAAAAAAWQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							50,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJMAAAAAAAAAkwAAAAAAAAABAAAAYA",
+							"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							51,
+							1,
+							"insert_snippet",
+							{
+								"contents": "\"$0\""
+							},
+							"AQAAAJMAAAAAAAAAlQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							53,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJQAAAAAAAAAlAAAAAAAAAABAAAAIg",
+							"AQAAAAAAAAABAAAAlQAAAAAAAACVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							64,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAAJQAAAAAAAAAlQAAAAAAAAAAAAAAlQAAAAAAAACWAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							66,
+							1,
+							"",
+							null,
+							"AQAAAJYAAAAAAAAA5QAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlgAAAAAAAACWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							73,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAAOUAAAAAAAAA5gAAAAAAAAAAAAAA5gAAAAAAAADnAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA5QAAAAAAAADlAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							74,
+							1,
+							"",
+							null,
+							"AQAAAOcAAAAAAAAAMwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA5wAAAAAAAADnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							78,
+							1,
+							"",
+							null,
+							"AQAAADMBAAAAAAAA4QEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMwEAAAAAAADnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							81,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAADMBAAAAAAAANAEAAAAAAAAAAAAANAEAAAAAAAA1AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMwEAAAAAAAAzAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							86,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAAOMBAAAAAAAA5AEAAAAAAAAAAAAA5AEAAAAAAADlAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA4wEAAAAAAADjAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							88,
+							1,
+							"",
+							null,
+							"AQAAAOUBAAAAAAAANgIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA5QEAAAAAAADlAQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Snippet: ",
+						"Snippet: newtemplate"
+					],
+					[
+						"close",
+						"File: Close All"
+					],
+					[
+						"Fav",
+						"Favorite Files: Add File(s)"
+					],
+					[
+						"type",
+						"Typewriter: Scrolling Mode (Toggle)"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"f",
+						"Favorite Files: Open File(s)"
+					],
+					[
+						"fav",
+						"Favorite Files: Open File(s)"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 160.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rodney/.config/zsh/aliases.zsh",
+				"/home/rodney/python/rip/holding.txt",
+				"/home/rodney/python/rip/updates.txt",
+				"/home/rodney/.config/zsh/.zshrc",
+				"/home/rodney/dotfiles/zsh/.config/zsh/aliases.zsh",
+				"/home/rodney/python/cueflac/README.1st",
+				"/home/rodney/python/cueflac_/README.1st",
+				"/home/rodney/python/cueflac/README.md",
+				"/home/rodney/Music/done/00xfered/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Billy Ray Cyrus/1992-Some Gave All/Billy Ray Cyrus - Some Gave All.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/1970-This Is Love/Archies, The - This Is Love.cue",
+				"/media/rodney/astor/music/lossless/cdimages/a-e/Archies, The/2012-Jingle Jangle/Archies, The - Jingle Jangle.cue",
+				"/home/rodney/Music/done/00xfered/p-t/Steep Canyon Rangers/2015-Be Still Moses/Steep Canyon Rangers - Be Still Moses.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD10 1959.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD09 1958.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD08 1957.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD07 1956.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD06 1955.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD05 1954.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD04 1953.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD03 1952.cue",
+				"/home/rodney/Music/done/00xfered/Various/1998-A Time To Remember (1950-1959)/Various - A Time To Remember (1950-1959) CD02 1951.cue",
+				"/home/rodney/Music/done/cdimages-new/Yu Fa Yu Band (雨法雨乐队)/2021-Sleeping Soundly (一夜好眠)/Yu Fa Yu Band (雨法雨乐队) - Sleeping Soundly (一夜好眠).cue",
+				"/home/rodney/Downloads/zzMusicDone/zzThe-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+				"/home/rodney/Downloads/zzMusicDone/zzThe-Fabulous-Thunderbirds-2024-Struck-Down/The Fabulous Thunderbirds - Struck Down.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD16 2020 Hide & Seek~The Lost Collection 1.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 1.cue",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/template",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/filelist",
+				"/home/rodney/Downloads/zzMusicDone/zznzb_tomjones/Tom Jones - The Complete Decca Studio Albums Collection/2020 - Hide & Seek - The Lost Collection 1/Tom Jones - The Complete Decca Studio Albums Collection CD16 The Lost Collection 1.cue",
+				"/home/rodney/Music/done/cdimages-current/Tom Jones/2020-The Complete Decca Studio Albums Collection/Tom Jones - The Complete Decca Studio Albums Collection CD17 2020 Hide & Seek~The Lost Collection 2.cue",
+				"/home/rodney/Desktop/notes.txt",
+				"/home/rodney/Music/done/cdimages-current/Monty Alexander/2024-D-Day/Monty Alexander - D-Day.cue",
+				"/home/rodney/Music/done/cdimages-current/Various Artists/1991-Sounds Of The Seventies Rock 'N' Soul Seventies/Various - Sounds Of The Seventies Rock 'N' Soul Seventies.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2019-Pura Vida (Banda Sonora)/Misia - Pura Vida (Banda Sonora).cue",
+				"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD02.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2015-Paara Amalia/Misia - Paara Amalia CD01.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD02.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2009-Ruas/Misia - Ruas CD01.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2005-Drama Box/Misia - Drama Box.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2003-Canto/Misia - Canto.cue",
+				"/home/rodney/Music/done/cdimages/Misia/2001-Ritual/Misia - Ritual.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1993-Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+				"/home/rodney/Music/done/cdimages/Misia/1993-Fado/Misia - Fado.cue",
+				"/home/rodney/Downloads/zzMusicDone/zzMisia 9 albums/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/Misia - Garras Dos Sentidos.cue",
+				"/home/rodney/Music/done/cdimages/Blondie/1999-Greatest Hits (Remastered)/Blondie - Greatest Hits (Remastered) CD02 Bonus Maria.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/Misia - Pura Vida (Banda Sonora).cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/1644/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2019 - Pura Vida (Banda Sonora)/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 2/Misia - Paara Amalia CD02.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2015 - Para Amalia/CD 1/Misia - Paara Amalia CD01.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/Misia - Ruas CD02.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 2/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2009 - Ruas/CD 1/Misia - Ruas CD01.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/Misia - Drama Box.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2005 - Drama Box/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2003 - Canto/Misia - Canto.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1998 - Garras Dos Sentidos/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/2001 - Ritual/Misia - Ritual.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Tanto Menos Tanto Mais/Misia - Tanto Menos Tanto Mais.cue",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/template",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/filelist",
+				"/home/rodney/Downloads/complete/Misia 8 albums/Misia - Albums/1993 - Fado/Misia - Fado.cue",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/template",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/filelist",
+				"/home/rodney/Downloads/complete/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID.vol127+33/Jay.Schwartz-Music.For.Orchestra.For.Six.Voices.For.12.Cellos.For.Five.Stringed.Instruments-CD-FLAC-2009-CID/Jay Schwartz - Music For Orchestra, Six Voices, 12 Cellos, Five Stringed Instruments.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - The Best Runway Music for Fashion 2024 FLAC-GP-FLAC/Various - Best Runway Music For Fashion.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Sunset Emotions, Vol. 9_ Compiled by Marco Celloni 2024 FLAC-GP-FLAC/Various - Sunset Emotions Vol 9, Compiled by Marco Celloni.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Elegant Evening_ Urban Chillout Music 2024 FLAC-GP-FLAC/Various - Elegant Evening Urban Chillout Music.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/VA - Chillout & Lounge Music Summer Vibes 2024 FLAC-GP-FLAC/Various - Chillout & Lounge Music Summer Vibes.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/template",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/Carloz Afonzo - Best Of Carloz Afonzo.cue",
+				"/home/rodney/Downloads/complete/flac.2/VA-Artist_Series_Best_Of_Carloz_Afonzo-(MNR279)-16BIT-WEB-FLAC-2024-GP-FLAC/filelist",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/template",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/filelist",
+				"/home/rodney/Downloads/complete/flac.2/Urban Nightlife Sounds/D01/Various - Urban Nightlife Sounds.cue",
+				"/home/rodney/idrive/JD/00akiba/08uc18/00ratings.txt",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/The Police - Synchronicity (Super Deluxe Ed) CD06.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d6/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/The Police - Synchronicity (Super Deluxe Ed) CD04.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/The Police - Synchronicity (Super Deluxe Ed) CD05.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d5/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d4/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d3/The Police - Synchronicity (Super Deluxe Ed) CD03.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/The Police - Synchronicity (Super Deluxe Ed) CD02.cue",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/template",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/d2/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/filelist",
+				"/home/rodney/Downloads/complete/The-Police-2024-Synchronicity-Super-Deluxe-Edition/The Police - Synchronicity (Super Deluxe Ed) CD01.cue",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/filelist",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/template",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/Various - Sun Records Sings Elvis Presley.cue",
+				"/home/rodney/Downloads/complete/Sun-Records-Sings-Elvis-Presley-2024/foo_dr.txt",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/template",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/filelist",
+				"/home/rodney/Downloads/complete/Matthew-Barber-Jill-Barber-2016-The-Family-Album/Mathew Barber & Jill Barber - The Family Album.cue"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 566,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										70,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_name": "alias jav_vids='rename \"s|Mosaic_reduce_([^\\.]+)\\.",
+									"git_gutter_is_enabled": false,
+									"lsp_uri": "buffer:140",
+									"show_definitions": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 144.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,755,402,1856,1020,1920,1080,2",
+			"project": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 53,
 			"workspace_name": ""
 		}
 	],

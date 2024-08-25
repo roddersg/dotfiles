@@ -51,9 +51,9 @@ alias gc="git commit -m"
 alias ga="git add ."
 
 # Tmux
-alias tkill="tmux kill-session -t"
-alias tlist="tmux list-sessions"
-alias tattach="tmux attach"
+# alias tkill="tmux kill-session -t"
+# alias tlist="tmux list-sessions"
+# alias tattach="tmux attach"
 
 # system
 alias zdd='cd $ZDOTDIR'
@@ -98,15 +98,14 @@ alias showdotfiles='find . -name "._*" -type f -print'
 alias deldotfiles='find . -name "._*" -type f -delete'
 # search javlibrary for code
 alias jls='f(){ open "https://www.javlibrary.com/en/vl_searchbyid.php?list&keyword=$1" };f'
-alias jrip='cd /home/rodney/python/rip;./rip_v8.py'
-alias rename_mr='rename "s|Mosaic_reduce_([^\.]+)\.m|$1_MR\.m|i" *.m*'
 alias javss='javss.sh'
 
+alias jrip='cd /home/rodney/python/rip;./rip_v8.py'
+alias j_covers='/home/rodney/python/rip/jav_fixcovernames.py'
+alias j_ren='rename '\''s|Mosaic_reduce_([^\.]+)\.m|$1_MR\.m|i'\'' *.m??'
 
 #graphics
 alias icat="kitten icat"
 alias view="eog"
 alias play="celluloid"
-
-
 
